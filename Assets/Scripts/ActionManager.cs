@@ -22,8 +22,11 @@ public class ActionManager : MonoBehaviour
 		RaycastHit hit;
 		if (Physics.Raycast(transform.position, transform.forward, out hit))
 		{
-			HandleActions(hit.collider);
-			return;
+			if (hit.collider.GetComponentInParent<CharacterManager>())
+			{
+				HandleActions(hit.collider);
+				return;
+			}
 		}
 
 		cursorRenderer.FadeToTransparent();
@@ -36,11 +39,7 @@ public class ActionManager : MonoBehaviour
 		if (!characterManager)
 			return;
 
-		if (canAnimationPlay)
-		{
-			ExecuteLookInteraction(characterManager);
-			canAnimationPlay = false;
-		}
+		ExecuteLookInteraction(characterManager);
 
 		TeleportTarget teleportTarget = targetCollider.GetComponentInParent<TeleportTarget>();
 		if (!teleportTarget)
@@ -62,14 +61,27 @@ public class ActionManager : MonoBehaviour
 
 	private void ExecuteLookInteraction(CharacterManager characterManager)
 	{
+		if (!canAnimationPlay)
+			return;
+
+		if (characterManager.characterAnimation.AnimatorIsPlaying(actionAnimationState))
+		{
+			characterManager.characterAnimation.ResetAnimationTrigger(actionAnimationState);
+			return;
+		}
+
+		if (characterManager.characterSound.characterAudioSource.isPlaying)
+			return;
+		
 		characterManager.PlayAnimation(actionAnimationState);
 		characterManager.PlaySound();
 
 		TeleportTarget teleportTarget = characterManager.GetComponentInParent<TeleportTarget>();
-		if (teleportTarget)
-			return;
+		if (!teleportTarget) {
+			characterManager.PlayEffect();
+		}
 
-		characterManager.PlayEffect();
+		canAnimationPlay = false;
 	}
 
 	private void ExecuteVoiceInteraction()

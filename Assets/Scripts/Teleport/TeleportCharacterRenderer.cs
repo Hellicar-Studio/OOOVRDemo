@@ -16,6 +16,8 @@ public class TeleportCharacterRenderer : MonoBehaviour
 				{
 					characterRenderer.enabled = false;
 				}
+
+				teleportCharacters[i].GetComponentInChildren<Collider>().enabled = false;
 			}
 			else
 			{
@@ -23,6 +25,8 @@ public class TeleportCharacterRenderer : MonoBehaviour
 				{
 					characterRenderer.enabled = true;
 				}
+
+				teleportCharacters[i].GetComponentInChildren<Collider>().enabled = true;
 			}
 		}
 	}
