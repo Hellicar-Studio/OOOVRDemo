@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 4d0629cce70d6344ca8441039cac0f8d
+timeCreated: 1463736066
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pianoKey1
+    100004: pianoKey10
+    100006: pianoKey11
+    100008: pianoKey12
+    100010: pianoKey13
+    100012: pianoKey14
+    100014: pianoKey15
+    100016: pianoKey2
+    100018: pianoKey3
+    100020: pianoKey4
+    100022: pianoKey5
+    100024: pianoKey6
+    100026: pianoKey7
+    100028: pianoKey8
+    100030: pianoKey9
+    400000: //RootNode
+    400002: pianoKey1
+    400004: pianoKey10
+    400006: pianoKey11
+    400008: pianoKey12
+    400010: pianoKey13
+    400012: pianoKey14
+    400014: pianoKey15
+    400016: pianoKey2
+    400018: pianoKey3
+    400020: pianoKey4
+    400022: pianoKey5
+    400024: pianoKey6
+    400026: pianoKey7
+    400028: pianoKey8
+    400030: pianoKey9
+    2300000: pianoKey1
+    2300002: pianoKey10
+    2300004: pianoKey11
+    2300006: pianoKey12
+    2300008: pianoKey13
+    2300010: pianoKey14
+    2300012: pianoKey15
+    2300014: pianoKey2
+    2300016: pianoKey3
+    2300018: pianoKey4
+    2300020: pianoKey5
+    2300022: pianoKey6
+    2300024: pianoKey7
+    2300026: pianoKey8
+    2300028: pianoKey9
+    3300000: pianoKey1
+    3300002: pianoKey10
+    3300004: pianoKey11
+    3300006: pianoKey12
+    3300008: pianoKey13
+    3300010: pianoKey14
+    3300012: pianoKey15
+    3300014: pianoKey2
+    3300016: pianoKey3
+    3300018: pianoKey4
+    3300020: pianoKey5
+    3300022: pianoKey6
+    3300024: pianoKey7
+    3300026: pianoKey8
+    3300028: pianoKey9
+    4300000: pianoKey1
+    4300002: pianoKey2
+    4300004: pianoKey3
+    4300006: pianoKey4
+    4300008: pianoKey5
+    4300010: pianoKey6
+    4300012: pianoKey7
+    4300014: pianoKey8
+    4300016: pianoKey9
+    4300018: pianoKey10
+    4300020: pianoKey11
+    4300022: pianoKey12
+    4300024: pianoKey13
+    4300026: pianoKey14
+    4300028: pianoKey15
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

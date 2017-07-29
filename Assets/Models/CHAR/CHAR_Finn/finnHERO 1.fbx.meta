@@ -1,0 +1,421 @@
+fileFormatVersion: 2
+guid: 4aa7247cc6caef8448562ff0a558f6a3
+timeCreated: 1462373521
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: def_arm_L0_0_shd
+    100002: def_arm_L0_1_shd
+    100004: def_arm_L0_2_shd
+    100006: def_arm_L0_3_shd
+    100008: def_arm_L0_4_shd
+    100010: def_arm_L0_5_shd
+    100012: def_arm_L0_6_shd
+    100014: def_arm_L0_7_shd
+    100016: def_arm_L0_end_shd
+    100018: def_arm_R0_0_shd
+    100020: def_arm_R0_1_shd
+    100022: def_arm_R0_2_shd
+    100024: def_arm_R0_3_shd
+    100026: def_arm_R0_4_shd
+    100028: def_arm_R0_5_shd
+    100030: def_arm_R0_6_shd
+    100032: def_arm_R0_7_shd
+    100034: def_arm_R0_end_shd
+    100036: def_finger_L1_0_shd
+    100038: def_finger_L1_1_shd
+    100040: def_finger_L1_2_shd
+    100042: def_finger_R1_0_shd
+    100044: def_finger_R1_1_shd
+    100046: def_finger_R1_2_shd
+    100048: def_foot_L0_0_shd
+    100050: def_foot_L0_1_shd
+    100052: def_foot_L0_2_shd
+    100054: def_foot_R0_0_shd
+    100056: def_foot_R0_1_shd
+    100058: def_foot_R0_2_shd
+    100060: def_leg_L0_0_shd
+    100062: def_leg_L0_1_shd
+    100064: def_leg_L0_2_shd
+    100066: def_leg_L0_3_shd
+    100068: def_leg_L0_4_shd
+    100070: def_leg_L0_5_shd
+    100072: def_leg_L0_6_shd
+    100074: def_leg_L0_7_shd
+    100076: def_leg_L0_8_shd
+    100078: def_leg_L0_end_shd
+    100080: def_leg_R0_0_shd
+    100082: def_leg_R0_1_shd
+    100084: def_leg_R0_2_shd
+    100086: def_leg_R0_3_shd
+    100088: def_leg_R0_4_shd
+    100090: def_leg_R0_5_shd
+    100092: def_leg_R0_6_shd
+    100094: def_leg_R0_7_shd
+    100096: def_leg_R0_8_shd
+    100098: def_leg_R0_end_shd
+    100100: def_neck_C0_0_shd
+    100102: def_neck_C0_1_shd
+    100104: def_neck_C0_2_shd
+    100106: def_neck_C0_head_shd
+    100108: def_shoulder_L0_0_shd
+    100110: def_shoulder_R0_0_shd
+    100112: def_spine_C0_0_shd
+    100114: def_spine_C0_1_shd
+    100116: def_spine_C0_2_shd
+    100118: def_spine_C0_3_shd
+    100120: def_spine_C0_4_shd
+    100122: def_thumb_L0_0_shd
+    100124: def_thumb_L0_1_shd
+    100126: def_thumb_L0_2_shd
+    100128: def_thumb_R0_0_shd
+    100130: def_thumb_R0_1_shd
+    100132: def_thumb_R0_2_shd
+    100134: def_toe_L0_0_shd
+    100136: def_toe_R0_0_shd
+    100138: FaceState
+    100140: Finn_arms1
+    100142: Finn_main1
+    100144: Finn_pack1
+    100146: //RootNode
+    100148: Scarlet_Geo
+    100150: shadowNulls
+    100152: Sword_Weight
+    100154: CamRoot
+    400000: def_arm_L0_0_shd
+    400002: def_arm_L0_1_shd
+    400004: def_arm_L0_2_shd
+    400006: def_arm_L0_3_shd
+    400008: def_arm_L0_4_shd
+    400010: def_arm_L0_5_shd
+    400012: def_arm_L0_6_shd
+    400014: def_arm_L0_7_shd
+    400016: def_arm_L0_end_shd
+    400018: def_arm_R0_0_shd
+    400020: def_arm_R0_1_shd
+    400022: def_arm_R0_2_shd
+    400024: def_arm_R0_3_shd
+    400026: def_arm_R0_4_shd
+    400028: def_arm_R0_5_shd
+    400030: def_arm_R0_6_shd
+    400032: def_arm_R0_7_shd
+    400034: def_arm_R0_end_shd
+    400036: def_finger_L1_0_shd
+    400038: def_finger_L1_1_shd
+    400040: def_finger_L1_2_shd
+    400042: def_finger_R1_0_shd
+    400044: def_finger_R1_1_shd
+    400046: def_finger_R1_2_shd
+    400048: def_foot_L0_0_shd
+    400050: def_foot_L0_1_shd
+    400052: def_foot_L0_2_shd
+    400054: def_foot_R0_0_shd
+    400056: def_foot_R0_1_shd
+    400058: def_foot_R0_2_shd
+    400060: def_leg_L0_0_shd
+    400062: def_leg_L0_1_shd
+    400064: def_leg_L0_2_shd
+    400066: def_leg_L0_3_shd
+    400068: def_leg_L0_4_shd
+    400070: def_leg_L0_5_shd
+    400072: def_leg_L0_6_shd
+    400074: def_leg_L0_7_shd
+    400076: def_leg_L0_8_shd
+    400078: def_leg_L0_end_shd
+    400080: def_leg_R0_0_shd
+    400082: def_leg_R0_1_shd
+    400084: def_leg_R0_2_shd
+    400086: def_leg_R0_3_shd
+    400088: def_leg_R0_4_shd
+    400090: def_leg_R0_5_shd
+    400092: def_leg_R0_6_shd
+    400094: def_leg_R0_7_shd
+    400096: def_leg_R0_8_shd
+    400098: def_leg_R0_end_shd
+    400100: def_neck_C0_0_shd
+    400102: def_neck_C0_1_shd
+    400104: def_neck_C0_2_shd
+    400106: def_neck_C0_head_shd
+    400108: def_shoulder_L0_0_shd
+    400110: def_shoulder_R0_0_shd
+    400112: def_spine_C0_0_shd
+    400114: def_spine_C0_1_shd
+    400116: def_spine_C0_2_shd
+    400118: def_spine_C0_3_shd
+    400120: def_spine_C0_4_shd
+    400122: def_thumb_L0_0_shd
+    400124: def_thumb_L0_1_shd
+    400126: def_thumb_L0_2_shd
+    400128: def_thumb_R0_0_shd
+    400130: def_thumb_R0_1_shd
+    400132: def_thumb_R0_2_shd
+    400134: def_toe_L0_0_shd
+    400136: def_toe_R0_0_shd
+    400138: FaceState
+    400140: Finn_arms1
+    400142: Finn_main1
+    400144: Finn_pack1
+    400146: //RootNode
+    400148: Scarlet_Geo
+    400150: shadowNulls
+    400152: Sword_Weight
+    400154: CamRoot
+    4300000: Finn_arms1
+    4300002: Finn_main1
+    4300004: Finn_pack1
+    4300006: Scarlet_Geo
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Finn_arms1
+    13700002: Finn_main1
+    13700004: Finn_pack1
+    13700006: Scarlet_Geo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.1
+    animationPositionError: 0.1
+    animationScaleError: 0.1
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CamRoot
+        weight: 1
+      - path: Finn_arms1
+        weight: 1
+      - path: Finn_main1
+        weight: 1
+      - path: Finn_pack1
+        weight: 1
+      - path: Scarlet_Geo
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_toe_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_toe_R0_0_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: shadowNulls/Sword_Weight
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

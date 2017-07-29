@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: adf905165be6d60409752e27ebd8a8fe
+timeCreated: 1461165573
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: gbg_jnt_chest
+    100002: gbg_jnt_head
+    100004: gbg_jnt_Left_ankle
+    100006: gbg_jnt_Left_arm1
+    100008: gbg_jnt_Left_arm2
+    100010: gbg_jnt_Left_arm3
+    100012: gbg_jnt_Left_arm4
+    100014: gbg_jnt_Left_arm5
+    100016: gbg_jnt_Left_clavicle
+    100018: gbg_jnt_Left_foot
+    100020: gbg_jnt_Left_hand
+    100022: gbg_jnt_Left_leg1
+    100024: gbg_jnt_Left_leg2
+    100026: gbg_jnt_Left_shoulder
+    100028: gbg_jnt_Left_shoulder2
+    100030: gbg_jnt_Left_toe
+    100032: gbg_jnt_neck
+    100034: gbg_jnt_pelvis1
+    100036: gbg_jnt_Right_ankle
+    100038: gbg_jnt_Right_arm1
+    100040: gbg_jnt_Right_arm2
+    100042: gbg_jnt_Right_arm3
+    100044: gbg_jnt_Right_arm4
+    100046: gbg_jnt_Right_arm5
+    100048: gbg_jnt_Right_clavicle
+    100050: gbg_jnt_Right_foot
+    100052: gbg_jnt_Right_hand
+    100054: gbg_jnt_Right_leg1
+    100056: gbg_jnt_Right_leg2
+    100058: gbg_jnt_Right_shoulder
+    100060: gbg_jnt_Right_shoulder2
+    100062: gbg_jnt_Right_toe
+    100064: gbg_jnt_spine
+    100066: //RootNode
+    100068: gumballGuardian_mesh
+    400000: gbg_jnt_chest
+    400002: gbg_jnt_head
+    400004: gbg_jnt_Left_ankle
+    400006: gbg_jnt_Left_arm1
+    400008: gbg_jnt_Left_arm2
+    400010: gbg_jnt_Left_arm3
+    400012: gbg_jnt_Left_arm4
+    400014: gbg_jnt_Left_arm5
+    400016: gbg_jnt_Left_clavicle
+    400018: gbg_jnt_Left_foot
+    400020: gbg_jnt_Left_hand
+    400022: gbg_jnt_Left_leg1
+    400024: gbg_jnt_Left_leg2
+    400026: gbg_jnt_Left_shoulder
+    400028: gbg_jnt_Left_shoulder2
+    400030: gbg_jnt_Left_toe
+    400032: gbg_jnt_neck
+    400034: gbg_jnt_pelvis1
+    400036: gbg_jnt_Right_ankle
+    400038: gbg_jnt_Right_arm1
+    400040: gbg_jnt_Right_arm2
+    400042: gbg_jnt_Right_arm3
+    400044: gbg_jnt_Right_arm4
+    400046: gbg_jnt_Right_arm5
+    400048: gbg_jnt_Right_clavicle
+    400050: gbg_jnt_Right_foot
+    400052: gbg_jnt_Right_hand
+    400054: gbg_jnt_Right_leg1
+    400056: gbg_jnt_Right_leg2
+    400058: gbg_jnt_Right_shoulder
+    400060: gbg_jnt_Right_shoulder2
+    400062: gbg_jnt_Right_toe
+    400064: gbg_jnt_spine
+    400066: //RootNode
+    400068: gumballGuardian_mesh
+    4300000: gumballGuardian_mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: gumballGuardian_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbg_jnt_pelvis1
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_Left_leg1
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_Left_leg1/gbg_jnt_Left_leg2
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_Left_leg1/gbg_jnt_Left_leg2/gbg_jnt_Left_ankle
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_Left_leg1/gbg_jnt_Left_leg2/gbg_jnt_Left_ankle/gbg_jnt_Left_foot
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_Left_leg1/gbg_jnt_Left_leg2/gbg_jnt_Left_ankle/gbg_jnt_Left_foot/gbg_jnt_Left_toe
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_Right_leg1
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_Right_leg1/gbg_jnt_Right_leg2
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_Right_leg1/gbg_jnt_Right_leg2/gbg_jnt_Right_ankle
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_Right_leg1/gbg_jnt_Right_leg2/gbg_jnt_Right_ankle/gbg_jnt_Right_foot
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_Right_leg1/gbg_jnt_Right_leg2/gbg_jnt_Right_ankle/gbg_jnt_Right_foot/gbg_jnt_Right_toe
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Left_clavicle
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Left_clavicle/gbg_jnt_Left_shoulder
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Left_clavicle/gbg_jnt_Left_shoulder/gbg_jnt_Left_shoulder2
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Left_clavicle/gbg_jnt_Left_shoulder/gbg_jnt_Left_shoulder2/gbg_jnt_Left_arm1
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Left_clavicle/gbg_jnt_Left_shoulder/gbg_jnt_Left_shoulder2/gbg_jnt_Left_arm1/gbg_jnt_Left_arm2
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Left_clavicle/gbg_jnt_Left_shoulder/gbg_jnt_Left_shoulder2/gbg_jnt_Left_arm1/gbg_jnt_Left_arm2/gbg_jnt_Left_arm3
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Left_clavicle/gbg_jnt_Left_shoulder/gbg_jnt_Left_shoulder2/gbg_jnt_Left_arm1/gbg_jnt_Left_arm2/gbg_jnt_Left_arm3/gbg_jnt_Left_arm4
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Left_clavicle/gbg_jnt_Left_shoulder/gbg_jnt_Left_shoulder2/gbg_jnt_Left_arm1/gbg_jnt_Left_arm2/gbg_jnt_Left_arm3/gbg_jnt_Left_arm4/gbg_jnt_Left_arm5
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Left_clavicle/gbg_jnt_Left_shoulder/gbg_jnt_Left_shoulder2/gbg_jnt_Left_arm1/gbg_jnt_Left_arm2/gbg_jnt_Left_arm3/gbg_jnt_Left_arm4/gbg_jnt_Left_arm5/gbg_jnt_Left_hand
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_neck
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_neck/gbg_jnt_head
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Right_clavicle
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Right_clavicle/gbg_jnt_Right_shoulder
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Right_clavicle/gbg_jnt_Right_shoulder/gbg_jnt_Right_shoulder2
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Right_clavicle/gbg_jnt_Right_shoulder/gbg_jnt_Right_shoulder2/gbg_jnt_Right_arm1
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Right_clavicle/gbg_jnt_Right_shoulder/gbg_jnt_Right_shoulder2/gbg_jnt_Right_arm1/gbg_jnt_Right_arm2
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Right_clavicle/gbg_jnt_Right_shoulder/gbg_jnt_Right_shoulder2/gbg_jnt_Right_arm1/gbg_jnt_Right_arm2/gbg_jnt_Right_arm3
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Right_clavicle/gbg_jnt_Right_shoulder/gbg_jnt_Right_shoulder2/gbg_jnt_Right_arm1/gbg_jnt_Right_arm2/gbg_jnt_Right_arm3/gbg_jnt_Right_arm4
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Right_clavicle/gbg_jnt_Right_shoulder/gbg_jnt_Right_shoulder2/gbg_jnt_Right_arm1/gbg_jnt_Right_arm2/gbg_jnt_Right_arm3/gbg_jnt_Right_arm4/gbg_jnt_Right_arm5
+        weight: 1
+      - path: gbg_jnt_pelvis1/gbg_jnt_spine/gbg_jnt_chest/gbg_jnt_Right_clavicle/gbg_jnt_Right_shoulder/gbg_jnt_Right_shoulder2/gbg_jnt_Right_arm1/gbg_jnt_Right_arm2/gbg_jnt_Right_arm3/gbg_jnt_Right_arm4/gbg_jnt_Right_arm5/gbg_jnt_Right_hand
+        weight: 1
+      - path: gumballGuardian_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

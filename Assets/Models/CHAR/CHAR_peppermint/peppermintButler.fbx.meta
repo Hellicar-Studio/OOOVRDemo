@@ -1,0 +1,2458 @@
+fileFormatVersion: 2
+guid: be7e25f15a6df6947929b7997a1fa8f8
+timeCreated: 1461604744
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arms
+    100002: Body
+    100004: BowTie
+    100006: def_arm_L0_0_shd
+    100008: def_arm_L0_1_shd
+    100010: def_arm_L0_2_shd
+    100012: def_arm_L0_3_shd
+    100014: def_arm_L0_4_shd
+    100016: def_arm_L0_5_shd
+    100018: def_arm_L0_6_shd
+    100020: def_arm_L0_7_shd
+    100022: def_arm_L0_end_shd
+    100024: def_arm_R0_0_shd
+    100026: def_arm_R0_1_shd
+    100028: def_arm_R0_2_shd
+    100030: def_arm_R0_3_shd
+    100032: def_arm_R0_4_shd
+    100034: def_arm_R0_5_shd
+    100036: def_arm_R0_6_shd
+    100038: def_arm_R0_7_shd
+    100040: def_arm_R0_end_shd
+    100042: def_chain_C0_0_shd
+    100044: def_chain_C0_1_shd
+    100046: def_chain_C0_2_shd
+    100048: def_finger_L1_0_shd
+    100050: def_finger_L1_1_shd
+    100052: def_finger_L1_2_shd
+    100054: def_finger_R1_0_shd
+    100056: def_finger_R1_1_shd
+    100058: def_finger_R1_2_shd
+    100060: def_foot_L0_0_shd
+    100062: def_foot_L0_1_shd
+    100064: def_foot_L0_2_shd
+    100066: def_foot_R0_0_shd
+    100068: def_foot_R0_1_shd
+    100070: def_foot_R0_2_shd
+    100072: def_leg_L0_0_shd
+    100074: def_leg_L0_1_shd
+    100076: def_leg_L0_2_shd
+    100078: def_leg_L0_3_shd
+    100080: def_leg_L0_4_shd
+    100082: def_leg_L0_5_shd
+    100084: def_leg_L0_6_shd
+    100086: def_leg_L0_7_shd
+    100088: def_leg_L0_8_shd
+    100090: def_leg_L0_end_shd
+    100092: def_leg_R0_0_shd
+    100094: def_leg_R0_1_shd
+    100096: def_leg_R0_2_shd
+    100098: def_leg_R0_3_shd
+    100100: def_leg_R0_4_shd
+    100102: def_leg_R0_5_shd
+    100104: def_leg_R0_6_shd
+    100106: def_leg_R0_7_shd
+    100108: def_leg_R0_8_shd
+    100110: def_leg_R0_end_shd
+    100112: def_neck_C0_0_shd
+    100114: def_neck_C0_1_shd
+    100116: def_neck_C0_2_shd
+    100118: def_neck_C0_head_shd
+    100120: def_shoulder_L0_0_shd
+    100122: def_shoulder_R0_0_shd
+    100124: def_spine_C0_0_shd
+    100126: def_spine_C0_1_shd
+    100128: def_spine_C0_2_shd
+    100130: def_spine_C0_3_shd
+    100132: def_spine_C0_4_shd
+    100134: def_thumb_L0_0_shd
+    100136: def_thumb_L0_1_shd
+    100138: def_thumb_L0_2_shd
+    100140: def_thumb_R0_0_shd
+    100142: def_thumb_R0_1_shd
+    100144: def_thumb_R0_2_shd
+    100146: FaceState
+    100148: Legs
+    100150: //RootNode
+    100152: shadowNulls
+    100154: Tail
+    400000: Arms
+    400002: Body
+    400004: BowTie
+    400006: def_arm_L0_0_shd
+    400008: def_arm_L0_1_shd
+    400010: def_arm_L0_2_shd
+    400012: def_arm_L0_3_shd
+    400014: def_arm_L0_4_shd
+    400016: def_arm_L0_5_shd
+    400018: def_arm_L0_6_shd
+    400020: def_arm_L0_7_shd
+    400022: def_arm_L0_end_shd
+    400024: def_arm_R0_0_shd
+    400026: def_arm_R0_1_shd
+    400028: def_arm_R0_2_shd
+    400030: def_arm_R0_3_shd
+    400032: def_arm_R0_4_shd
+    400034: def_arm_R0_5_shd
+    400036: def_arm_R0_6_shd
+    400038: def_arm_R0_7_shd
+    400040: def_arm_R0_end_shd
+    400042: def_chain_C0_0_shd
+    400044: def_chain_C0_1_shd
+    400046: def_chain_C0_2_shd
+    400048: def_finger_L1_0_shd
+    400050: def_finger_L1_1_shd
+    400052: def_finger_L1_2_shd
+    400054: def_finger_R1_0_shd
+    400056: def_finger_R1_1_shd
+    400058: def_finger_R1_2_shd
+    400060: def_foot_L0_0_shd
+    400062: def_foot_L0_1_shd
+    400064: def_foot_L0_2_shd
+    400066: def_foot_R0_0_shd
+    400068: def_foot_R0_1_shd
+    400070: def_foot_R0_2_shd
+    400072: def_leg_L0_0_shd
+    400074: def_leg_L0_1_shd
+    400076: def_leg_L0_2_shd
+    400078: def_leg_L0_3_shd
+    400080: def_leg_L0_4_shd
+    400082: def_leg_L0_5_shd
+    400084: def_leg_L0_6_shd
+    400086: def_leg_L0_7_shd
+    400088: def_leg_L0_8_shd
+    400090: def_leg_L0_end_shd
+    400092: def_leg_R0_0_shd
+    400094: def_leg_R0_1_shd
+    400096: def_leg_R0_2_shd
+    400098: def_leg_R0_3_shd
+    400100: def_leg_R0_4_shd
+    400102: def_leg_R0_5_shd
+    400104: def_leg_R0_6_shd
+    400106: def_leg_R0_7_shd
+    400108: def_leg_R0_8_shd
+    400110: def_leg_R0_end_shd
+    400112: def_neck_C0_0_shd
+    400114: def_neck_C0_1_shd
+    400116: def_neck_C0_2_shd
+    400118: def_neck_C0_head_shd
+    400120: def_shoulder_L0_0_shd
+    400122: def_shoulder_R0_0_shd
+    400124: def_spine_C0_0_shd
+    400126: def_spine_C0_1_shd
+    400128: def_spine_C0_2_shd
+    400130: def_spine_C0_3_shd
+    400132: def_spine_C0_4_shd
+    400134: def_thumb_L0_0_shd
+    400136: def_thumb_L0_1_shd
+    400138: def_thumb_L0_2_shd
+    400140: def_thumb_R0_0_shd
+    400142: def_thumb_R0_1_shd
+    400144: def_thumb_R0_2_shd
+    400146: FaceState
+    400148: Legs
+    400150: //RootNode
+    400152: shadowNulls
+    400154: Tail
+    4300000: Arms
+    4300002: Tail
+    4300004: Legs
+    4300006: BowTie
+    4300008: Body
+    7400000: peppermint_Idle01
+    7400002: peppermint_Idle02
+    7400004: peppermint_doItFools
+    7400006: peppermint_Idle03
+    7400008: peppermint_Idle04
+    7400010: peppermint_scream
+    7400012: peppermint_RunPanic
+    7400014: peppermint_Run
+    7400016: peppermint_jump
+    7400018: peppermint_dance01
+    7400020: peppermint_dance02
+    7400022: peppermint_dance03
+    9500000: //RootNode
+    13700000: Arms
+    13700002: Body
+    13700004: BowTie
+    13700006: Legs
+    13700008: Tail
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.1
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: peppermint_Idle01
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 74
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: BowTie
+        weight: 1
+      - path: Legs
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: peppermint_Idle02
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: BowTie
+        weight: 1
+      - path: Legs
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: peppermint_doItFools
+      takeName: Take 001
+      firstFrame: 130
+      lastFrame: 204
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: BowTie
+        weight: 1
+      - path: Legs
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: peppermint_Idle03
+      takeName: Take 001
+      firstFrame: 205
+      lastFrame: 279
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: BowTie
+        weight: 1
+      - path: Legs
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: peppermint_Idle04
+      takeName: Take 001
+      firstFrame: 280
+      lastFrame: 335
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: BowTie
+        weight: 1
+      - path: Legs
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: peppermint_scream
+      takeName: Take 001
+      firstFrame: 336
+      lastFrame: 366
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: BowTie
+        weight: 1
+      - path: Legs
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: peppermint_RunPanic
+      takeName: Take 001
+      firstFrame: 367
+      lastFrame: 378
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: BowTie
+        weight: 1
+      - path: Legs
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: peppermint_Run
+      takeName: Take 001
+      firstFrame: 379
+      lastFrame: 394
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: BowTie
+        weight: 1
+      - path: Legs
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: peppermint_jump
+      takeName: Take 001
+      firstFrame: 395
+      lastFrame: 419
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: BowTie
+        weight: 1
+      - path: Legs
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: peppermint_dance01
+      takeName: Take 001
+      firstFrame: 420
+      lastFrame: 449
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: BowTie
+        weight: 1
+      - path: Legs
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: peppermint_dance02
+      takeName: Take 001
+      firstFrame: 450
+      lastFrame: 479
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: BowTie
+        weight: 1
+      - path: Legs
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: peppermint_dance03
+      takeName: Take 001
+      firstFrame: 480
+      lastFrame: 509
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: BowTie
+        weight: 1
+      - path: Legs
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_chain_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

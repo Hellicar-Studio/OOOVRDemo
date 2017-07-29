@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: b48ee253136af7342a05385721b82622
+timeCreated: 1460366776
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: group71
+    100002: group72
+    100004: group73
+    100006: //RootNode
+    100008: pasted__PM3D_Sphere3D_8
+    100010: pasted__PM3D_Sphere3D_8 1
+    100012: joint1
+    100014: joint10
+    100016: joint11
+    100018: joint12
+    100020: joint13
+    100022: joint14
+    100024: joint15
+    100026: joint2
+    100028: joint3
+    100030: joint4
+    100032: joint5
+    100034: joint6
+    100036: joint7
+    100038: joint8
+    100040: joint9
+    100042: pasted__pasted__PM3D_Sphere3D_1
+    400000: group71
+    400002: group72
+    400004: group73
+    400006: //RootNode
+    400008: pasted__PM3D_Sphere3D_8
+    400010: pasted__PM3D_Sphere3D_8 1
+    400012: joint1
+    400014: joint10
+    400016: joint11
+    400018: joint12
+    400020: joint13
+    400022: joint14
+    400024: joint15
+    400026: joint2
+    400028: joint3
+    400030: joint4
+    400032: joint5
+    400034: joint6
+    400036: joint7
+    400038: joint8
+    400040: joint9
+    400042: pasted__pasted__PM3D_Sphere3D_1
+    2300000: pasted__PM3D_Sphere3D_8
+    2300002: pasted__PM3D_Sphere3D_8 1
+    2300004: pasted__pasted__PM3D_Sphere3D_1
+    3300000: pasted__PM3D_Sphere3D_8
+    3300002: pasted__PM3D_Sphere3D_8 1
+    3300004: pasted__pasted__PM3D_Sphere3D_1
+    4300000: pasted__PM3D_Sphere3D_8
+    4300002: pasted__PM3D_Sphere3D_8
+    4300004: pasted__pasted__PM3D_Sphere3D_1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

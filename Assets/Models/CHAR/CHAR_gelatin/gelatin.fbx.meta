@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: 60c3f4ac5af73f348a5ac0862722e182
+timeCreated: 1461686807
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: FaceState
+    100002: //RootNode
+    100004: gelatin1
+    100006: gelatin1_Point7_ClsCtr
+    100008: shadowNulls
+    100010: SHADOWRIG_LARM1
+    100012: SHADOWRIG_LARM2
+    100014: SHADOWRIG_LARM3
+    100016: SHADOWRIG_LARM4
+    100018: SHADOWRIG_LARM5
+    100020: SHADOWRIG_LARM6
+    100022: SHADOWRIG_LLEG1
+    100024: SHADOWRIG_LLEG2
+    100026: SHADOWRIG_LLEG3
+    100028: SHADOWRIG_LLEG4
+    100030: SHADOWRIG_LLEG5
+    100032: SHADOWRIG_LLEG6
+    100034: SHADOWRIG_LLEG7
+    100036: SHADOWRIG_RARM1
+    100038: SHADOWRIG_RARM2
+    100040: SHADOWRIG_RARM3
+    100042: SHADOWRIG_RARM4
+    100044: SHADOWRIG_RARM5
+    100046: SHADOWRIG_RARM6
+    100048: SHADOWRIG_RLEG1
+    100050: SHADOWRIG_RLEG2
+    100052: SHADOWRIG_RLEG3
+    100054: SHADOWRIG_RLEG4
+    100056: SHADOWRIG_RLEG5
+    100058: SHADOWRIG_RLEG6
+    100060: SHADOWRIG_RLEG7
+    100062: SHADPOINT1
+    100064: SHADPOINT10
+    100066: SHADPOINT11
+    100068: SHADPOINT12
+    100070: SHADPOINT13
+    100072: SHADPOINT14
+    100074: SHADPOINT15
+    100076: SHADPOINT16
+    100078: SHADPOINT17
+    100080: SHADPOINT18
+    100082: SHADPOINT19
+    100084: SHADPOINT2
+    100086: SHADPOINT20
+    100088: SHADPOINT21
+    100090: SHADPOINT22
+    100092: SHADPOINT23
+    100094: SHADPOINT24
+    100096: SHADPOINT25
+    100098: SHADPOINT26
+    100100: SHADPOINT27
+    100102: SHADPOINT3
+    100104: SHADPOINT4
+    100106: SHADPOINT5
+    100108: SHADPOINT6
+    100110: SHADPOINT7
+    100112: SHADPOINT8
+    100114: SHADPOINT9
+    400000: FaceState
+    400002: //RootNode
+    400004: gelatin1
+    400006: gelatin1_Point7_ClsCtr
+    400008: shadowNulls
+    400010: SHADOWRIG_LARM1
+    400012: SHADOWRIG_LARM2
+    400014: SHADOWRIG_LARM3
+    400016: SHADOWRIG_LARM4
+    400018: SHADOWRIG_LARM5
+    400020: SHADOWRIG_LARM6
+    400022: SHADOWRIG_LLEG1
+    400024: SHADOWRIG_LLEG2
+    400026: SHADOWRIG_LLEG3
+    400028: SHADOWRIG_LLEG4
+    400030: SHADOWRIG_LLEG5
+    400032: SHADOWRIG_LLEG6
+    400034: SHADOWRIG_LLEG7
+    400036: SHADOWRIG_RARM1
+    400038: SHADOWRIG_RARM2
+    400040: SHADOWRIG_RARM3
+    400042: SHADOWRIG_RARM4
+    400044: SHADOWRIG_RARM5
+    400046: SHADOWRIG_RARM6
+    400048: SHADOWRIG_RLEG1
+    400050: SHADOWRIG_RLEG2
+    400052: SHADOWRIG_RLEG3
+    400054: SHADOWRIG_RLEG4
+    400056: SHADOWRIG_RLEG5
+    400058: SHADOWRIG_RLEG6
+    400060: SHADOWRIG_RLEG7
+    400062: SHADPOINT1
+    400064: SHADPOINT10
+    400066: SHADPOINT11
+    400068: SHADPOINT12
+    400070: SHADPOINT13
+    400072: SHADPOINT14
+    400074: SHADPOINT15
+    400076: SHADPOINT16
+    400078: SHADPOINT17
+    400080: SHADPOINT18
+    400082: SHADPOINT19
+    400084: SHADPOINT2
+    400086: SHADPOINT20
+    400088: SHADPOINT21
+    400090: SHADPOINT22
+    400092: SHADPOINT23
+    400094: SHADPOINT24
+    400096: SHADPOINT25
+    400098: SHADPOINT26
+    400100: SHADPOINT27
+    400102: SHADPOINT3
+    400104: SHADPOINT4
+    400106: SHADPOINT5
+    400108: SHADPOINT6
+    400110: SHADPOINT7
+    400112: SHADPOINT8
+    400114: SHADPOINT9
+    4300000: gelatin1
+    7400000: gelatin_active
+    7400002: gelatin_idle
+    9500000: //RootNode
+    13700000: gelatin1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: gelatin_active
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gelatin1
+        weight: 1
+      - path: gelatin1/gelatin1_Point7_ClsCtr
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LARM1
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LARM2
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LARM3
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LARM4
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LARM5
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LARM6
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LLEG1
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LLEG2
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LLEG3
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LLEG4
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LLEG5
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LLEG6
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LLEG7
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RARM1
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RARM2
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RARM3
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RARM4
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RARM5
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RARM6
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RLEG1
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RLEG2
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RLEG3
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RLEG4
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RLEG5
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RLEG6
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RLEG7
+        weight: 1
+      - path: shadowNulls/SHADPOINT1
+        weight: 1
+      - path: shadowNulls/SHADPOINT2
+        weight: 1
+      - path: shadowNulls/SHADPOINT3
+        weight: 1
+      - path: shadowNulls/SHADPOINT4
+        weight: 1
+      - path: shadowNulls/SHADPOINT5
+        weight: 1
+      - path: shadowNulls/SHADPOINT6
+        weight: 1
+      - path: shadowNulls/SHADPOINT7
+        weight: 1
+      - path: shadowNulls/SHADPOINT8
+        weight: 1
+      - path: shadowNulls/SHADPOINT9
+        weight: 1
+      - path: shadowNulls/SHADPOINT10
+        weight: 1
+      - path: shadowNulls/SHADPOINT11
+        weight: 1
+      - path: shadowNulls/SHADPOINT12
+        weight: 1
+      - path: shadowNulls/SHADPOINT13
+        weight: 1
+      - path: shadowNulls/SHADPOINT14
+        weight: 1
+      - path: shadowNulls/SHADPOINT15
+        weight: 1
+      - path: shadowNulls/SHADPOINT16
+        weight: 1
+      - path: shadowNulls/SHADPOINT17
+        weight: 1
+      - path: shadowNulls/SHADPOINT18
+        weight: 1
+      - path: shadowNulls/SHADPOINT19
+        weight: 1
+      - path: shadowNulls/SHADPOINT20
+        weight: 1
+      - path: shadowNulls/SHADPOINT21
+        weight: 1
+      - path: shadowNulls/SHADPOINT22
+        weight: 1
+      - path: shadowNulls/SHADPOINT23
+        weight: 1
+      - path: shadowNulls/SHADPOINT24
+        weight: 1
+      - path: shadowNulls/SHADPOINT25
+        weight: 1
+      - path: shadowNulls/SHADPOINT26
+        weight: 1
+      - path: shadowNulls/SHADPOINT27
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: gelatin_idle
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gelatin1
+        weight: 1
+      - path: gelatin1/gelatin1_Point7_ClsCtr
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LARM1
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LARM2
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LARM3
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LARM4
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LARM5
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LARM6
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LLEG1
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LLEG2
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LLEG3
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LLEG4
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LLEG5
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LLEG6
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_LLEG7
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RARM1
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RARM2
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RARM3
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RARM4
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RARM5
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RARM6
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RLEG1
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RLEG2
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RLEG3
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RLEG4
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RLEG5
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RLEG6
+        weight: 1
+      - path: shadowNulls/SHADOWRIG_RLEG7
+        weight: 1
+      - path: shadowNulls/SHADPOINT1
+        weight: 1
+      - path: shadowNulls/SHADPOINT2
+        weight: 1
+      - path: shadowNulls/SHADPOINT3
+        weight: 1
+      - path: shadowNulls/SHADPOINT4
+        weight: 1
+      - path: shadowNulls/SHADPOINT5
+        weight: 1
+      - path: shadowNulls/SHADPOINT6
+        weight: 1
+      - path: shadowNulls/SHADPOINT7
+        weight: 1
+      - path: shadowNulls/SHADPOINT8
+        weight: 1
+      - path: shadowNulls/SHADPOINT9
+        weight: 1
+      - path: shadowNulls/SHADPOINT10
+        weight: 1
+      - path: shadowNulls/SHADPOINT11
+        weight: 1
+      - path: shadowNulls/SHADPOINT12
+        weight: 1
+      - path: shadowNulls/SHADPOINT13
+        weight: 1
+      - path: shadowNulls/SHADPOINT14
+        weight: 1
+      - path: shadowNulls/SHADPOINT15
+        weight: 1
+      - path: shadowNulls/SHADPOINT16
+        weight: 1
+      - path: shadowNulls/SHADPOINT17
+        weight: 1
+      - path: shadowNulls/SHADPOINT18
+        weight: 1
+      - path: shadowNulls/SHADPOINT19
+        weight: 1
+      - path: shadowNulls/SHADPOINT20
+        weight: 1
+      - path: shadowNulls/SHADPOINT21
+        weight: 1
+      - path: shadowNulls/SHADPOINT22
+        weight: 1
+      - path: shadowNulls/SHADPOINT23
+        weight: 1
+      - path: shadowNulls/SHADPOINT24
+        weight: 1
+      - path: shadowNulls/SHADPOINT25
+        weight: 1
+      - path: shadowNulls/SHADPOINT26
+        weight: 1
+      - path: shadowNulls/SHADPOINT27
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

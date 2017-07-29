@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: 94701d12909336a4cae00b16cb3a1c7b
+timeCreated: 1460366773
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: candyCatle_Inside3:group
+    100002: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12
+    100004: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 1
+    100006: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 2
+    100008: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 3
+    100010: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 4
+    100012: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere1
+    100014: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere2
+    100016: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere3
+    100018: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere4
+    100020: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere5
+    100022: candyCatle_Inside3:pasted__vineTree2
+    100024: //RootNode
+    100026: pasted__pasted__PM3D_Sphere3D12
+    100028: pasted__pasted__PM3D_Sphere3D12 1
+    100030: pasted__pasted__PM3D_Sphere3D13
+    100032: pasted__pasted__PM3D_Sphere3D14
+    100034: pasted__pasted__PM3D_Sphere3D15
+    100036: pasted__pasted__PM3D_Sphere3D16
+    100038: pasted__pasted__PM3D_Sphere3D17
+    100040: pasted__pasted__PM3D_Sphere3D18
+    100042: pasted__pasted__PM3D_Sphere3D19
+    100044: pasted__pasted__PM3D_Sphere3D23
+    100046: pasted__pasted__PM3D_Sphere3D24
+    100048: pasted__pasted__PM3D_Sphere3D25
+    100050: pasted__pasted__PM3D_Sphere3D26
+    100052: pasted__pasted__PM3D_Sphere3D27
+    100054: pasted__pasted__PM3D_Sphere3D28
+    100056: pasted__pasted__PM3D_Sphere3D29
+    100058: pasted__pasted__PM3D_Sphere3D30
+    100060: pasted__pasted__PM3D_Sphere3D31
+    100062: pasted__pasted__PM3D_Sphere3D32
+    100064: pasted__pasted__PM3D_Sphere3D33
+    100066: pasted__pasted__PM3D_Sphere3D34
+    100068: pasted__pasted__PM3D_Sphere3D35
+    400000: candyCatle_Inside3:group
+    400002: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12
+    400004: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 1
+    400006: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 2
+    400008: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 3
+    400010: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 4
+    400012: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere1
+    400014: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere2
+    400016: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere3
+    400018: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere4
+    400020: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere5
+    400022: candyCatle_Inside3:pasted__vineTree2
+    400024: //RootNode
+    400026: pasted__pasted__PM3D_Sphere3D12
+    400028: pasted__pasted__PM3D_Sphere3D12 1
+    400030: pasted__pasted__PM3D_Sphere3D13
+    400032: pasted__pasted__PM3D_Sphere3D14
+    400034: pasted__pasted__PM3D_Sphere3D15
+    400036: pasted__pasted__PM3D_Sphere3D16
+    400038: pasted__pasted__PM3D_Sphere3D17
+    400040: pasted__pasted__PM3D_Sphere3D18
+    400042: pasted__pasted__PM3D_Sphere3D19
+    400044: pasted__pasted__PM3D_Sphere3D23
+    400046: pasted__pasted__PM3D_Sphere3D24
+    400048: pasted__pasted__PM3D_Sphere3D25
+    400050: pasted__pasted__PM3D_Sphere3D26
+    400052: pasted__pasted__PM3D_Sphere3D27
+    400054: pasted__pasted__PM3D_Sphere3D28
+    400056: pasted__pasted__PM3D_Sphere3D29
+    400058: pasted__pasted__PM3D_Sphere3D30
+    400060: pasted__pasted__PM3D_Sphere3D31
+    400062: pasted__pasted__PM3D_Sphere3D32
+    400064: pasted__pasted__PM3D_Sphere3D33
+    400066: pasted__pasted__PM3D_Sphere3D34
+    400068: pasted__pasted__PM3D_Sphere3D35
+    2300000: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12
+    2300002: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 1
+    2300004: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 2
+    2300006: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 3
+    2300008: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 4
+    2300010: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere1
+    2300012: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere2
+    2300014: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere3
+    2300016: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere4
+    2300018: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere5
+    2300020: pasted__pasted__PM3D_Sphere3D12
+    2300022: pasted__pasted__PM3D_Sphere3D12 1
+    2300024: pasted__pasted__PM3D_Sphere3D13
+    2300026: pasted__pasted__PM3D_Sphere3D14
+    2300028: pasted__pasted__PM3D_Sphere3D15
+    2300030: pasted__pasted__PM3D_Sphere3D16
+    2300032: pasted__pasted__PM3D_Sphere3D17
+    2300034: pasted__pasted__PM3D_Sphere3D18
+    2300036: pasted__pasted__PM3D_Sphere3D19
+    2300038: pasted__pasted__PM3D_Sphere3D23
+    2300040: pasted__pasted__PM3D_Sphere3D24
+    2300042: pasted__pasted__PM3D_Sphere3D25
+    2300044: pasted__pasted__PM3D_Sphere3D26
+    2300046: pasted__pasted__PM3D_Sphere3D27
+    2300048: pasted__pasted__PM3D_Sphere3D28
+    2300050: pasted__pasted__PM3D_Sphere3D29
+    2300052: pasted__pasted__PM3D_Sphere3D30
+    2300054: pasted__pasted__PM3D_Sphere3D31
+    2300056: pasted__pasted__PM3D_Sphere3D32
+    2300058: pasted__pasted__PM3D_Sphere3D33
+    2300060: pasted__pasted__PM3D_Sphere3D34
+    2300062: pasted__pasted__PM3D_Sphere3D35
+    2300064: //RootNode
+    3300000: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12
+    3300002: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 1
+    3300004: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 2
+    3300006: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 3
+    3300008: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12 4
+    3300010: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere1
+    3300012: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere2
+    3300014: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere3
+    3300016: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere4
+    3300018: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere5
+    3300020: pasted__pasted__PM3D_Sphere3D12
+    3300022: pasted__pasted__PM3D_Sphere3D12 1
+    3300024: pasted__pasted__PM3D_Sphere3D13
+    3300026: pasted__pasted__PM3D_Sphere3D14
+    3300028: pasted__pasted__PM3D_Sphere3D15
+    3300030: pasted__pasted__PM3D_Sphere3D16
+    3300032: pasted__pasted__PM3D_Sphere3D17
+    3300034: pasted__pasted__PM3D_Sphere3D18
+    3300036: pasted__pasted__PM3D_Sphere3D19
+    3300038: pasted__pasted__PM3D_Sphere3D23
+    3300040: pasted__pasted__PM3D_Sphere3D24
+    3300042: pasted__pasted__PM3D_Sphere3D25
+    3300044: pasted__pasted__PM3D_Sphere3D26
+    3300046: pasted__pasted__PM3D_Sphere3D27
+    3300048: pasted__pasted__PM3D_Sphere3D28
+    3300050: pasted__pasted__PM3D_Sphere3D29
+    3300052: pasted__pasted__PM3D_Sphere3D30
+    3300054: pasted__pasted__PM3D_Sphere3D31
+    3300056: pasted__pasted__PM3D_Sphere3D32
+    3300058: pasted__pasted__PM3D_Sphere3D33
+    3300060: pasted__pasted__PM3D_Sphere3D34
+    3300062: pasted__pasted__PM3D_Sphere3D35
+    3300064: //RootNode
+    4300000: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere1
+    4300002: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12
+    4300004: pasted__pasted__PM3D_Sphere3D12
+    4300006: pasted__pasted__PM3D_Sphere3D15
+    4300008: pasted__pasted__PM3D_Sphere3D16
+    4300010: pasted__pasted__PM3D_Sphere3D17
+    4300012: pasted__pasted__PM3D_Sphere3D18
+    4300014: pasted__pasted__PM3D_Sphere3D19
+    4300016: pasted__pasted__PM3D_Sphere3D23
+    4300018: pasted__pasted__PM3D_Sphere3D24
+    4300020: pasted__pasted__PM3D_Sphere3D25
+    4300022: pasted__pasted__PM3D_Sphere3D26
+    4300024: pasted__pasted__PM3D_Sphere3D27
+    4300026: pasted__pasted__PM3D_Sphere3D28
+    4300028: pasted__pasted__PM3D_Sphere3D29
+    4300030: pasted__pasted__PM3D_Sphere3D30
+    4300032: pasted__pasted__PM3D_Sphere3D31
+    4300034: pasted__pasted__PM3D_Sphere3D32
+    4300036: pasted__pasted__PM3D_Sphere3D33
+    4300038: pasted__pasted__PM3D_Sphere3D34
+    4300040: pasted__pasted__PM3D_Sphere3D35
+    4300042: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere2
+    4300044: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12
+    4300046: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere3
+    4300048: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12
+    4300050: pasted__pasted__PM3D_Sphere3D12
+    4300052: pasted__pasted__PM3D_Sphere3D13
+    4300054: pasted__pasted__PM3D_Sphere3D14
+    4300056: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere4
+    4300058: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12
+    4300060: candyCatle_Inside3:pasted__pasted__PM3D_ZSphere5
+    4300062: candyCatle_Inside3:pasted__pasted__PM3D_Sphere3D12
+    4300064: innerTrees:Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

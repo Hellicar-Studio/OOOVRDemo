@@ -1,0 +1,471 @@
+fileFormatVersion: 2
+guid: 448160ab6b72e3746b4c1612f374902a
+timeCreated: 1460473927
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BMO:BMO
+    100004: BMO:BMO_ncl1_1
+    100006: BMO:def_arm_L0_0_shd
+    100008: BMO:def_arm_L0_1_shd
+    100010: BMO:def_arm_L0_2_shd
+    100012: BMO:def_arm_L0_3_shd
+    100014: BMO:def_arm_L0_4_shd
+    100016: BMO:def_arm_L0_5_shd
+    100018: BMO:def_arm_L0_6_shd
+    100020: BMO:def_arm_L0_7_shd
+    100022: BMO:def_arm_L0_8_shd
+    100024: BMO:def_arm_L0_end_shd
+    100026: BMO:def_arm_R0_0_shd
+    100028: BMO:def_arm_R0_1_shd
+    100030: BMO:def_arm_R0_2_shd
+    100032: BMO:def_arm_R0_3_shd
+    100034: BMO:def_arm_R0_4_shd
+    100036: BMO:def_arm_R0_5_shd
+    100038: BMO:def_arm_R0_6_shd
+    100040: BMO:def_arm_R0_7_shd
+    100042: BMO:def_arm_R0_8_shd
+    100044: BMO:def_arm_R0_end_shd
+    100046: BMO:def_finger_L0_0_shd
+    100048: BMO:def_finger_L0_1_shd
+    100050: BMO:def_finger_L0_2_shd
+    100052: BMO:def_finger_L1_0_shd
+    100054: BMO:def_finger_L1_1_shd
+    100056: BMO:def_finger_L1_2_shd
+    100058: BMO:def_finger_L2_0_shd
+    100060: BMO:def_finger_L2_1_shd
+    100062: BMO:def_finger_L2_2_shd
+    100064: BMO:def_finger_R0_0_shd
+    100066: BMO:def_finger_R0_1_shd
+    100068: BMO:def_finger_R0_2_shd
+    100070: BMO:def_finger_R1_0_shd
+    100072: BMO:def_finger_R1_1_shd
+    100074: BMO:def_finger_R1_2_shd
+    100076: BMO:def_finger_R2_0_shd
+    100078: BMO:def_finger_R2_1_shd
+    100080: BMO:def_finger_R2_2_shd
+    100082: BMO:def_foot_L0_0_shd
+    100084: BMO:def_foot_L0_1_shd
+    100086: BMO:def_foot_L0_2_shd
+    100088: BMO:def_foot_R0_0_shd
+    100090: BMO:def_foot_R0_1_shd
+    100092: BMO:def_foot_R0_2_shd
+    100094: BMO:def_leg_L0_0_shd
+    100096: BMO:def_leg_L0_1_shd
+    100098: BMO:def_leg_L0_2_shd
+    100100: BMO:def_leg_L0_3_shd
+    100102: BMO:def_leg_L0_4_shd
+    100104: BMO:def_leg_L0_5_shd
+    100106: BMO:def_leg_L0_6_shd
+    100108: BMO:def_leg_L0_7_shd
+    100110: BMO:def_leg_L0_8_shd
+    100112: BMO:def_leg_L0_end_shd
+    100114: BMO:def_leg_R0_0_shd
+    100116: BMO:def_leg_R0_1_shd
+    100118: BMO:def_leg_R0_2_shd
+    100120: BMO:def_leg_R0_3_shd
+    100122: BMO:def_leg_R0_4_shd
+    100124: BMO:def_leg_R0_5_shd
+    100126: BMO:def_leg_R0_6_shd
+    100128: BMO:def_leg_R0_7_shd
+    100130: BMO:def_leg_R0_8_shd
+    100132: BMO:def_leg_R0_end_shd
+    100134: BMO:def_meta_L0_0_shd
+    100136: BMO:def_meta_L0_1_shd
+    100138: BMO:def_meta_L0_end_shd
+    100140: BMO:def_meta_R0_0_shd
+    100142: BMO:def_meta_R0_1_shd
+    100144: BMO:def_meta_R0_end_shd
+    100146: BMO:def_neck_C0_0_shd
+    100148: BMO:def_neck_C0_1_shd
+    100150: BMO:def_neck_C0_2_shd
+    100152: BMO:def_neck_C0_head_shd
+    100154: BMO:def_shoulder_L0_0_shd
+    100156: BMO:def_shoulder_R0_0_shd
+    100158: BMO:def_spine_C0_0_shd
+    100160: BMO:def_spine_C0_1_shd
+    100162: BMO:def_spine_C0_2_shd
+    100164: BMO:def_spine_C0_3_shd
+    100166: BMO:def_spine_C0_4_shd
+    100168: BMO:def_thumb_L0_0_shd
+    100170: BMO:def_thumb_L0_1_shd
+    100172: BMO:def_thumb_L0_2_shd
+    100174: BMO:def_thumb_R0_0_shd
+    100176: BMO:def_thumb_R0_1_shd
+    100178: BMO:def_thumb_R0_2_shd
+    100180: BMO:Export_BMO
+    100182: BMO:shadowNulls
+    400000: //RootNode
+    400002: BMO:BMO
+    400004: BMO:BMO_ncl1_1
+    400006: BMO:def_arm_L0_0_shd
+    400008: BMO:def_arm_L0_1_shd
+    400010: BMO:def_arm_L0_2_shd
+    400012: BMO:def_arm_L0_3_shd
+    400014: BMO:def_arm_L0_4_shd
+    400016: BMO:def_arm_L0_5_shd
+    400018: BMO:def_arm_L0_6_shd
+    400020: BMO:def_arm_L0_7_shd
+    400022: BMO:def_arm_L0_8_shd
+    400024: BMO:def_arm_L0_end_shd
+    400026: BMO:def_arm_R0_0_shd
+    400028: BMO:def_arm_R0_1_shd
+    400030: BMO:def_arm_R0_2_shd
+    400032: BMO:def_arm_R0_3_shd
+    400034: BMO:def_arm_R0_4_shd
+    400036: BMO:def_arm_R0_5_shd
+    400038: BMO:def_arm_R0_6_shd
+    400040: BMO:def_arm_R0_7_shd
+    400042: BMO:def_arm_R0_8_shd
+    400044: BMO:def_arm_R0_end_shd
+    400046: BMO:def_finger_L0_0_shd
+    400048: BMO:def_finger_L0_1_shd
+    400050: BMO:def_finger_L0_2_shd
+    400052: BMO:def_finger_L1_0_shd
+    400054: BMO:def_finger_L1_1_shd
+    400056: BMO:def_finger_L1_2_shd
+    400058: BMO:def_finger_L2_0_shd
+    400060: BMO:def_finger_L2_1_shd
+    400062: BMO:def_finger_L2_2_shd
+    400064: BMO:def_finger_R0_0_shd
+    400066: BMO:def_finger_R0_1_shd
+    400068: BMO:def_finger_R0_2_shd
+    400070: BMO:def_finger_R1_0_shd
+    400072: BMO:def_finger_R1_1_shd
+    400074: BMO:def_finger_R1_2_shd
+    400076: BMO:def_finger_R2_0_shd
+    400078: BMO:def_finger_R2_1_shd
+    400080: BMO:def_finger_R2_2_shd
+    400082: BMO:def_foot_L0_0_shd
+    400084: BMO:def_foot_L0_1_shd
+    400086: BMO:def_foot_L0_2_shd
+    400088: BMO:def_foot_R0_0_shd
+    400090: BMO:def_foot_R0_1_shd
+    400092: BMO:def_foot_R0_2_shd
+    400094: BMO:def_leg_L0_0_shd
+    400096: BMO:def_leg_L0_1_shd
+    400098: BMO:def_leg_L0_2_shd
+    400100: BMO:def_leg_L0_3_shd
+    400102: BMO:def_leg_L0_4_shd
+    400104: BMO:def_leg_L0_5_shd
+    400106: BMO:def_leg_L0_6_shd
+    400108: BMO:def_leg_L0_7_shd
+    400110: BMO:def_leg_L0_8_shd
+    400112: BMO:def_leg_L0_end_shd
+    400114: BMO:def_leg_R0_0_shd
+    400116: BMO:def_leg_R0_1_shd
+    400118: BMO:def_leg_R0_2_shd
+    400120: BMO:def_leg_R0_3_shd
+    400122: BMO:def_leg_R0_4_shd
+    400124: BMO:def_leg_R0_5_shd
+    400126: BMO:def_leg_R0_6_shd
+    400128: BMO:def_leg_R0_7_shd
+    400130: BMO:def_leg_R0_8_shd
+    400132: BMO:def_leg_R0_end_shd
+    400134: BMO:def_meta_L0_0_shd
+    400136: BMO:def_meta_L0_1_shd
+    400138: BMO:def_meta_L0_end_shd
+    400140: BMO:def_meta_R0_0_shd
+    400142: BMO:def_meta_R0_1_shd
+    400144: BMO:def_meta_R0_end_shd
+    400146: BMO:def_neck_C0_0_shd
+    400148: BMO:def_neck_C0_1_shd
+    400150: BMO:def_neck_C0_2_shd
+    400152: BMO:def_neck_C0_head_shd
+    400154: BMO:def_shoulder_L0_0_shd
+    400156: BMO:def_shoulder_R0_0_shd
+    400158: BMO:def_spine_C0_0_shd
+    400160: BMO:def_spine_C0_1_shd
+    400162: BMO:def_spine_C0_2_shd
+    400164: BMO:def_spine_C0_3_shd
+    400166: BMO:def_spine_C0_4_shd
+    400168: BMO:def_thumb_L0_0_shd
+    400170: BMO:def_thumb_L0_1_shd
+    400172: BMO:def_thumb_L0_2_shd
+    400174: BMO:def_thumb_R0_0_shd
+    400176: BMO:def_thumb_R0_1_shd
+    400178: BMO:def_thumb_R0_2_shd
+    400180: BMO:Export_BMO
+    400182: BMO:shadowNulls
+    2300000: BMO:BMO
+    3300000: BMO:BMO
+    4300000: BMO:BMO
+    4300002: BMO:BMO_ncl1_1
+    7400000: bmo_idle01
+    9500000: //RootNode
+    13700000: BMO:BMO_ncl1_1
+    13700002: BMO:BMO
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: bmo_idle01
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BMO:BMO
+        weight: 1
+      - path: BMO:shadowNulls
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_L0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_L0_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_L0_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_L0_3_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_L0_4_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_L0_5_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_L0_6_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_L0_7_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_L0_8_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_L0_end_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_R0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_R0_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_R0_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_R0_3_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_R0_4_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_R0_5_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_R0_6_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_R0_7_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_R0_8_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_arm_R0_end_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_L0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_L0_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_L0_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_L1_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_L1_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_L1_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_L2_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_L2_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_L2_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_R0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_R0_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_R0_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_R1_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_R1_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_R1_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_R2_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_R2_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_finger_R2_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_foot_L0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_foot_L0_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_foot_L0_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_foot_R0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_foot_R0_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_foot_R0_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_L0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_L0_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_L0_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_L0_3_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_L0_4_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_L0_5_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_L0_6_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_L0_7_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_L0_8_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_L0_end_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_R0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_R0_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_R0_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_R0_3_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_R0_4_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_R0_5_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_R0_6_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_R0_7_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_R0_8_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_leg_R0_end_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_meta_L0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_meta_L0_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_meta_L0_end_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_meta_R0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_meta_R0_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_meta_R0_end_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_neck_C0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_neck_C0_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_neck_C0_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_neck_C0_head_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_shoulder_L0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_shoulder_R0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_spine_C0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_spine_C0_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_spine_C0_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_spine_C0_3_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_spine_C0_4_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_thumb_L0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_thumb_L0_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_thumb_L0_2_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_thumb_R0_0_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_thumb_R0_1_shd
+        weight: 1
+      - path: BMO:shadowNulls/BMO:def_thumb_R0_2_shd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

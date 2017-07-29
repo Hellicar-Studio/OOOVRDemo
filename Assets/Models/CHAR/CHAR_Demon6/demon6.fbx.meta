@@ -1,0 +1,433 @@
+fileFormatVersion: 2
+guid: 0c5873198eaee7441bd3e9495dd7fec1
+timeCreated: 1461598112
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Demon6:def_arm_L0_0_shd
+    100004: Demon6:def_arm_L0_4_shd
+    100006: Demon6:def_arm_L0_8_shd
+    100008: Demon6:def_arm_L0_end_shd
+    100010: Demon6:def_arm_R0_0_shd
+    100012: Demon6:def_arm_R0_4_shd
+    100014: Demon6:def_arm_R0_8_shd
+    100016: Demon6:def_arm_R0_end_shd
+    100018: Demon6:def_foot_L0_0_shd
+    100020: Demon6:def_foot_L0_1_shd
+    100022: Demon6:def_foot_L0_2_shd
+    100024: Demon6:def_foot_R0_0_shd
+    100026: Demon6:def_foot_R0_1_shd
+    100028: Demon6:def_foot_R0_2_shd
+    100030: Demon6:def_leg_L0_0_shd
+    100032: Demon6:def_leg_L0_2_shd
+    100034: Demon6:def_leg_L0_4_shd
+    100036: Demon6:def_leg_L0_7_shd
+    100038: Demon6:def_leg_R0_0_shd
+    100040: Demon6:def_leg_R0_2_shd
+    100042: Demon6:def_leg_R0_4_shd
+    100044: Demon6:def_leg_R0_7_shd
+    100046: Demon6:def_neck_C0_0_shd
+    100048: Demon6:def_neck_C0_1_shd
+    100050: Demon6:def_neck_C0_head_shd
+    100052: Demon6:def_shoulder_L0_0_shd
+    100054: Demon6:def_shoulder_R0_0_shd
+    100056: Demon6:def_spine_C0_0_shd
+    100058: Demon6:def_spine_C0_2_shd
+    100060: Demon6:def_spine_C0_4_shd
+    100062: Demon6:Demon
+    100064: Demon6:FaceState
+    100066: Demon6:shadowNulls
+    400000: //RootNode
+    400002: Demon6:def_arm_L0_0_shd
+    400004: Demon6:def_arm_L0_4_shd
+    400006: Demon6:def_arm_L0_8_shd
+    400008: Demon6:def_arm_L0_end_shd
+    400010: Demon6:def_arm_R0_0_shd
+    400012: Demon6:def_arm_R0_4_shd
+    400014: Demon6:def_arm_R0_8_shd
+    400016: Demon6:def_arm_R0_end_shd
+    400018: Demon6:def_foot_L0_0_shd
+    400020: Demon6:def_foot_L0_1_shd
+    400022: Demon6:def_foot_L0_2_shd
+    400024: Demon6:def_foot_R0_0_shd
+    400026: Demon6:def_foot_R0_1_shd
+    400028: Demon6:def_foot_R0_2_shd
+    400030: Demon6:def_leg_L0_0_shd
+    400032: Demon6:def_leg_L0_2_shd
+    400034: Demon6:def_leg_L0_4_shd
+    400036: Demon6:def_leg_L0_7_shd
+    400038: Demon6:def_leg_R0_0_shd
+    400040: Demon6:def_leg_R0_2_shd
+    400042: Demon6:def_leg_R0_4_shd
+    400044: Demon6:def_leg_R0_7_shd
+    400046: Demon6:def_neck_C0_0_shd
+    400048: Demon6:def_neck_C0_1_shd
+    400050: Demon6:def_neck_C0_head_shd
+    400052: Demon6:def_shoulder_L0_0_shd
+    400054: Demon6:def_shoulder_R0_0_shd
+    400056: Demon6:def_spine_C0_0_shd
+    400058: Demon6:def_spine_C0_2_shd
+    400060: Demon6:def_spine_C0_4_shd
+    400062: Demon6:Demon
+    400064: Demon6:FaceState
+    400066: Demon6:shadowNulls
+    4300000: Demon6:Demon
+    7400000: demon6_flying
+    7400002: demon6_death
+    7400004: demon6_deathLoop
+    9500000: //RootNode
+    13700000: Demon6:Demon
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: demon6_flying
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon6:Demon
+        weight: 1
+      - path: Demon6:shadowNulls
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_L0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_L0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_L0_8_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_L0_end_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_R0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_R0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_R0_8_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_R0_end_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_L0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_L0_1_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_L0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_R0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_R0_1_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_R0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_L0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_L0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_L0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_L0_7_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_R0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_R0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_R0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_R0_7_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_neck_C0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_neck_C0_1_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_neck_C0_head_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_shoulder_L0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_shoulder_R0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_spine_C0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_spine_C0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_spine_C0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:FaceState
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: demon6_death
+      takeName: Take 001
+      firstFrame: 19
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon6:Demon
+        weight: 1
+      - path: Demon6:shadowNulls
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_L0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_L0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_L0_8_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_L0_end_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_R0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_R0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_R0_8_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_R0_end_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_L0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_L0_1_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_L0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_R0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_R0_1_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_R0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_L0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_L0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_L0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_L0_7_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_R0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_R0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_R0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_R0_7_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_neck_C0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_neck_C0_1_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_neck_C0_head_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_shoulder_L0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_shoulder_R0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_spine_C0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_spine_C0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_spine_C0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:FaceState
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: demon6_deathLoop
+      takeName: Take 001
+      firstFrame: 28
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon6:Demon
+        weight: 1
+      - path: Demon6:shadowNulls
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_L0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_L0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_L0_8_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_L0_end_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_R0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_R0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_R0_8_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_arm_R0_end_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_L0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_L0_1_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_L0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_R0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_R0_1_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_foot_R0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_L0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_L0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_L0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_L0_7_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_R0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_R0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_R0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_leg_R0_7_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_neck_C0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_neck_C0_1_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_neck_C0_head_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_shoulder_L0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_shoulder_R0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_spine_C0_0_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_spine_C0_2_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:def_spine_C0_4_shd
+        weight: 1
+      - path: Demon6:shadowNulls/Demon6:FaceState
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

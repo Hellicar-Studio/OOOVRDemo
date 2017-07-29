@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 292c1aa48088de74cbc92265c3155064
+timeCreated: 1462443208
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arms1
+    100002: camera
+    100004: def_arm_L0_0_shd
+    100006: def_arm_L0_1_shd
+    100008: def_arm_L0_2_shd
+    100010: def_arm_L0_3_shd
+    100012: def_arm_L0_4_shd
+    100014: def_arm_L0_5_shd
+    100016: def_arm_L0_6_shd
+    100018: def_arm_L0_7_shd
+    100020: def_arm_L0_8_shd
+    100022: def_arm_L0_end_shd
+    100024: def_arm_R0_0_shd
+    100026: def_arm_R0_1_shd
+    100028: def_arm_R0_2_shd
+    100030: def_arm_R0_3_shd
+    100032: def_arm_R0_4_shd
+    100034: def_arm_R0_5_shd
+    100036: def_arm_R0_6_shd
+    100038: def_arm_R0_7_shd
+    100040: def_arm_R0_8_shd
+    100042: def_arm_R0_end_shd
+    100044: def_finger_L0_0_shd
+    100046: def_finger_L0_1_shd
+    100048: def_finger_L0_2_shd
+    100050: def_finger_L1_0_shd
+    100052: def_finger_L1_1_shd
+    100054: def_finger_L1_2_shd
+    100056: def_finger_L2_0_shd
+    100058: def_finger_L2_1_shd
+    100060: def_finger_L2_2_shd
+    100062: def_finger_R0_0_shd
+    100064: def_finger_R0_1_shd
+    100066: def_finger_R0_2_shd
+    100068: def_finger_R1_0_shd
+    100070: def_finger_R1_1_shd
+    100072: def_finger_R1_2_shd
+    100074: def_finger_R2_0_shd
+    100076: def_finger_R2_1_shd
+    100078: def_finger_R2_2_shd
+    100080: def_foot_L0_0_shd
+    100082: def_foot_L0_1_shd
+    100084: def_foot_L0_2_shd
+    100086: def_foot_R0_0_shd
+    100088: def_foot_R0_1_shd
+    100090: def_foot_R0_2_shd
+    100092: def_leg_L0_0_shd
+    100094: def_leg_L0_1_shd
+    100096: def_leg_L0_2_shd
+    100098: def_leg_L0_3_shd
+    100100: def_leg_L0_4_shd
+    100102: def_leg_L0_5_shd
+    100104: def_leg_L0_6_shd
+    100106: def_leg_L0_7_shd
+    100108: def_leg_L0_8_shd
+    100110: def_leg_L0_end_shd
+    100112: def_leg_R0_0_shd
+    100114: def_leg_R0_1_shd
+    100116: def_leg_R0_2_shd
+    100118: def_leg_R0_3_shd
+    100120: def_leg_R0_4_shd
+    100122: def_leg_R0_5_shd
+    100124: def_leg_R0_6_shd
+    100126: def_leg_R0_7_shd
+    100128: def_leg_R0_8_shd
+    100130: def_leg_R0_end_shd
+    100132: def_meta_L0_0_shd
+    100134: def_meta_L0_1_shd
+    100136: def_meta_L0_end_shd
+    100138: def_meta_R0_0_shd
+    100140: def_meta_R0_1_shd
+    100142: def_meta_R0_end_shd
+    100144: def_neck_C0_0_shd
+    100146: def_neck_C0_1_shd
+    100148: def_neck_C0_2_shd
+    100150: def_neck_C0_head_shd
+    100152: def_shoulder_L0_0_shd
+    100154: def_shoulder_R0_0_shd
+    100156: def_spine_C0_0_shd
+    100158: def_spine_C0_1_shd
+    100160: def_spine_C0_2_shd
+    100162: def_spine_C0_3_shd
+    100164: def_spine_C0_4_shd
+    100166: FaceState
+    100168: JAKE_body1
+    100170: //RootNode
+    100172: Lft_Leg
+    100174: Rgh_Leg
+    100176: shadowNulls
+    100178: def_arm_L0_0_shd1
+    100180: def_arm_L0_0_shd2
+    100182: def_arm_L0_0_shd3
+    100184: def_arm_L0_1_shd1
+    100186: def_arm_L0_1_shd2
+    100188: def_arm_L0_1_shd3
+    100190: def_arm_L0_2_shd1
+    100192: def_arm_L0_2_shd2
+    100194: def_arm_L0_2_shd3
+    100196: def_arm_L0_3_shd1
+    100198: def_arm_L0_3_shd2
+    100200: def_arm_L0_3_shd3
+    100202: def_arm_L0_4_shd1
+    100204: def_arm_L0_4_shd2
+    100206: def_arm_L0_4_shd3
+    100208: def_arm_L0_5_shd1
+    100210: def_arm_L0_5_shd2
+    100212: def_arm_L0_5_shd3
+    100214: def_arm_L0_6_shd1
+    100216: def_arm_L0_6_shd2
+    100218: def_arm_L0_6_shd3
+    100220: def_arm_L0_7_shd1
+    100222: def_arm_L0_7_shd2
+    100224: def_arm_L0_7_shd3
+    100226: def_arm_L0_8_shd1
+    100228: def_arm_L0_8_shd2
+    100230: def_arm_L0_8_shd3
+    100232: def_arm_L0_end_shd1
+    100234: def_arm_L0_end_shd2
+    100236: def_arm_L0_end_shd3
+    100238: def_arm_R0_0_shd1
+    100240: def_arm_R0_0_shd2
+    100242: def_arm_R0_0_shd3
+    100244: def_arm_R0_1_shd1
+    100246: def_arm_R0_1_shd2
+    100248: def_arm_R0_1_shd3
+    100250: def_arm_R0_2_shd1
+    100252: def_arm_R0_2_shd2
+    100254: def_arm_R0_2_shd3
+    100256: def_arm_R0_3_shd1
+    100258: def_arm_R0_3_shd2
+    100260: def_arm_R0_3_shd3
+    100262: def_arm_R0_4_shd1
+    100264: def_arm_R0_4_shd2
+    100266: def_arm_R0_4_shd3
+    100268: def_arm_R0_5_shd1
+    100270: def_arm_R0_5_shd2
+    100272: def_arm_R0_5_shd3
+    100274: def_arm_R0_6_shd1
+    100276: def_arm_R0_6_shd2
+    100278: def_arm_R0_6_shd3
+    100280: def_arm_R0_7_shd1
+    100282: def_arm_R0_7_shd2
+    100284: def_arm_R0_7_shd3
+    100286: def_arm_R0_8_shd1
+    100288: def_arm_R0_8_shd2
+    100290: def_arm_R0_8_shd3
+    100292: def_arm_R0_end_shd1
+    100294: def_arm_R0_end_shd2
+    100296: def_arm_R0_end_shd3
+    100298: def_finger_L0_0_shd1
+    100300: def_finger_L0_0_shd2
+    100302: def_finger_L0_0_shd3
+    100304: def_finger_L0_1_shd1
+    100306: def_finger_L0_1_shd2
+    100308: def_finger_L0_1_shd3
+    100310: def_finger_L0_2_shd1
+    100312: def_finger_L0_2_shd2
+    100314: def_finger_L0_2_shd3
+    100316: def_finger_L1_0_shd1
+    100318: def_finger_L1_0_shd2
+    100320: def_finger_L1_0_shd3
+    100322: def_finger_L1_1_shd1
+    100324: def_finger_L1_1_shd2
+    100326: def_finger_L1_1_shd3
+    100328: def_finger_L1_2_shd1
+    100330: def_finger_L1_2_shd2
+    100332: def_finger_L1_2_shd3
+    100334: def_finger_L2_0_shd1
+    100336: def_finger_L2_0_shd2
+    100338: def_finger_L2_0_shd3
+    100340: def_finger_L2_1_shd1
+    100342: def_finger_L2_1_shd2
+    100344: def_finger_L2_1_shd3
+    100346: def_finger_L2_2_shd1
+    100348: def_finger_L2_2_shd2
+    100350: def_finger_L2_2_shd3
+    100352: def_finger_R0_0_shd1
+    100354: def_finger_R0_0_shd2
+    100356: def_finger_R0_0_shd3
+    100358: def_finger_R0_1_shd1
+    100360: def_finger_R0_1_shd2
+    100362: def_finger_R0_1_shd3
+    100364: def_finger_R0_2_shd1
+    100366: def_finger_R0_2_shd2
+    100368: def_finger_R0_2_shd3
+    100370: def_finger_R1_0_shd1
+    100372: def_finger_R1_0_shd2
+    100374: def_finger_R1_0_shd3
+    100376: def_finger_R1_1_shd1
+    100378: def_finger_R1_1_shd2
+    100380: def_finger_R1_1_shd3
+    100382: def_finger_R1_2_shd1
+    100384: def_finger_R1_2_shd2
+    100386: def_finger_R1_2_shd3
+    100388: def_finger_R2_0_shd1
+    100390: def_finger_R2_0_shd2
+    100392: def_finger_R2_0_shd3
+    100394: def_finger_R2_1_shd1
+    100396: def_finger_R2_1_shd2
+    100398: def_finger_R2_1_shd3
+    100400: def_finger_R2_2_shd1
+    100402: def_finger_R2_2_shd2
+    100404: def_finger_R2_2_shd3
+    100406: def_meta_L0_0_shd1
+    100408: def_meta_L0_0_shd2
+    100410: def_meta_L0_0_shd3
+    100412: def_meta_L0_1_shd1
+    100414: def_meta_L0_1_shd2
+    100416: def_meta_L0_1_shd3
+    100418: def_meta_L0_end_shd1
+    100420: def_meta_L0_end_shd2
+    100422: def_meta_L0_end_shd3
+    100424: def_meta_R0_0_shd1
+    100426: def_meta_R0_0_shd2
+    100428: def_meta_R0_0_shd3
+    100430: def_meta_R0_1_shd1
+    100432: def_meta_R0_1_shd2
+    100434: def_meta_R0_1_shd3
+    100436: def_meta_R0_end_shd1
+    100438: def_meta_R0_end_shd2
+    100440: def_meta_R0_end_shd3
+    100442: def_shoulder_L0_0_shd1
+    100444: def_shoulder_L0_0_shd2
+    100446: def_shoulder_L0_0_shd3
+    100448: def_shoulder_R0_0_shd1
+    100450: def_shoulder_R0_0_shd2
+    100452: def_shoulder_R0_0_shd3
+    100454: MENTALARMS
+    100456: MENTALARMS_SHADOW
+    400000: Arms1
+    400002: camera
+    400004: def_arm_L0_0_shd
+    400006: def_arm_L0_1_shd
+    400008: def_arm_L0_2_shd
+    400010: def_arm_L0_3_shd
+    400012: def_arm_L0_4_shd
+    400014: def_arm_L0_5_shd
+    400016: def_arm_L0_6_shd
+    400018: def_arm_L0_7_shd
+    400020: def_arm_L0_8_shd
+    400022: def_arm_L0_end_shd
+    400024: def_arm_R0_0_shd
+    400026: def_arm_R0_1_shd
+    400028: def_arm_R0_2_shd
+    400030: def_arm_R0_3_shd
+    400032: def_arm_R0_4_shd
+    400034: def_arm_R0_5_shd
+    400036: def_arm_R0_6_shd
+    400038: def_arm_R0_7_shd
+    400040: def_arm_R0_8_shd
+    400042: def_arm_R0_end_shd
+    400044: def_finger_L0_0_shd
+    400046: def_finger_L0_1_shd
+    400048: def_finger_L0_2_shd
+    400050: def_finger_L1_0_shd
+    400052: def_finger_L1_1_shd
+    400054: def_finger_L1_2_shd
+    400056: def_finger_L2_0_shd
+    400058: def_finger_L2_1_shd
+    400060: def_finger_L2_2_shd
+    400062: def_finger_R0_0_shd
+    400064: def_finger_R0_1_shd
+    400066: def_finger_R0_2_shd
+    400068: def_finger_R1_0_shd
+    400070: def_finger_R1_1_shd
+    400072: def_finger_R1_2_shd
+    400074: def_finger_R2_0_shd
+    400076: def_finger_R2_1_shd
+    400078: def_finger_R2_2_shd
+    400080: def_foot_L0_0_shd
+    400082: def_foot_L0_1_shd
+    400084: def_foot_L0_2_shd
+    400086: def_foot_R0_0_shd
+    400088: def_foot_R0_1_shd
+    400090: def_foot_R0_2_shd
+    400092: def_leg_L0_0_shd
+    400094: def_leg_L0_1_shd
+    400096: def_leg_L0_2_shd
+    400098: def_leg_L0_3_shd
+    400100: def_leg_L0_4_shd
+    400102: def_leg_L0_5_shd
+    400104: def_leg_L0_6_shd
+    400106: def_leg_L0_7_shd
+    400108: def_leg_L0_8_shd
+    400110: def_leg_L0_end_shd
+    400112: def_leg_R0_0_shd
+    400114: def_leg_R0_1_shd
+    400116: def_leg_R0_2_shd
+    400118: def_leg_R0_3_shd
+    400120: def_leg_R0_4_shd
+    400122: def_leg_R0_5_shd
+    400124: def_leg_R0_6_shd
+    400126: def_leg_R0_7_shd
+    400128: def_leg_R0_8_shd
+    400130: def_leg_R0_end_shd
+    400132: def_meta_L0_0_shd
+    400134: def_meta_L0_1_shd
+    400136: def_meta_L0_end_shd
+    400138: def_meta_R0_0_shd
+    400140: def_meta_R0_1_shd
+    400142: def_meta_R0_end_shd
+    400144: def_neck_C0_0_shd
+    400146: def_neck_C0_1_shd
+    400148: def_neck_C0_2_shd
+    400150: def_neck_C0_head_shd
+    400152: def_shoulder_L0_0_shd
+    400154: def_shoulder_R0_0_shd
+    400156: def_spine_C0_0_shd
+    400158: def_spine_C0_1_shd
+    400160: def_spine_C0_2_shd
+    400162: def_spine_C0_3_shd
+    400164: def_spine_C0_4_shd
+    400166: FaceState
+    400168: JAKE_body1
+    400170: //RootNode
+    400172: Lft_Leg
+    400174: Rgh_Leg
+    400176: shadowNulls
+    400178: def_arm_L0_0_shd1
+    400180: def_arm_L0_0_shd2
+    400182: def_arm_L0_0_shd3
+    400184: def_arm_L0_1_shd1
+    400186: def_arm_L0_1_shd2
+    400188: def_arm_L0_1_shd3
+    400190: def_arm_L0_2_shd1
+    400192: def_arm_L0_2_shd2
+    400194: def_arm_L0_2_shd3
+    400196: def_arm_L0_3_shd1
+    400198: def_arm_L0_3_shd2
+    400200: def_arm_L0_3_shd3
+    400202: def_arm_L0_4_shd1
+    400204: def_arm_L0_4_shd2
+    400206: def_arm_L0_4_shd3
+    400208: def_arm_L0_5_shd1
+    400210: def_arm_L0_5_shd2
+    400212: def_arm_L0_5_shd3
+    400214: def_arm_L0_6_shd1
+    400216: def_arm_L0_6_shd2
+    400218: def_arm_L0_6_shd3
+    400220: def_arm_L0_7_shd1
+    400222: def_arm_L0_7_shd2
+    400224: def_arm_L0_7_shd3
+    400226: def_arm_L0_8_shd1
+    400228: def_arm_L0_8_shd2
+    400230: def_arm_L0_8_shd3
+    400232: def_arm_L0_end_shd1
+    400234: def_arm_L0_end_shd2
+    400236: def_arm_L0_end_shd3
+    400238: def_arm_R0_0_shd1
+    400240: def_arm_R0_0_shd2
+    400242: def_arm_R0_0_shd3
+    400244: def_arm_R0_1_shd1
+    400246: def_arm_R0_1_shd2
+    400248: def_arm_R0_1_shd3
+    400250: def_arm_R0_2_shd1
+    400252: def_arm_R0_2_shd2
+    400254: def_arm_R0_2_shd3
+    400256: def_arm_R0_3_shd1
+    400258: def_arm_R0_3_shd2
+    400260: def_arm_R0_3_shd3
+    400262: def_arm_R0_4_shd1
+    400264: def_arm_R0_4_shd2
+    400266: def_arm_R0_4_shd3
+    400268: def_arm_R0_5_shd1
+    400270: def_arm_R0_5_shd2
+    400272: def_arm_R0_5_shd3
+    400274: def_arm_R0_6_shd1
+    400276: def_arm_R0_6_shd2
+    400278: def_arm_R0_6_shd3
+    400280: def_arm_R0_7_shd1
+    400282: def_arm_R0_7_shd2
+    400284: def_arm_R0_7_shd3
+    400286: def_arm_R0_8_shd1
+    400288: def_arm_R0_8_shd2
+    400290: def_arm_R0_8_shd3
+    400292: def_arm_R0_end_shd1
+    400294: def_arm_R0_end_shd2
+    400296: def_arm_R0_end_shd3
+    400298: def_finger_L0_0_shd1
+    400300: def_finger_L0_0_shd2
+    400302: def_finger_L0_0_shd3
+    400304: def_finger_L0_1_shd1
+    400306: def_finger_L0_1_shd2
+    400308: def_finger_L0_1_shd3
+    400310: def_finger_L0_2_shd1
+    400312: def_finger_L0_2_shd2
+    400314: def_finger_L0_2_shd3
+    400316: def_finger_L1_0_shd1
+    400318: def_finger_L1_0_shd2
+    400320: def_finger_L1_0_shd3
+    400322: def_finger_L1_1_shd1
+    400324: def_finger_L1_1_shd2
+    400326: def_finger_L1_1_shd3
+    400328: def_finger_L1_2_shd1
+    400330: def_finger_L1_2_shd2
+    400332: def_finger_L1_2_shd3
+    400334: def_finger_L2_0_shd1
+    400336: def_finger_L2_0_shd2
+    400338: def_finger_L2_0_shd3
+    400340: def_finger_L2_1_shd1
+    400342: def_finger_L2_1_shd2
+    400344: def_finger_L2_1_shd3
+    400346: def_finger_L2_2_shd1
+    400348: def_finger_L2_2_shd2
+    400350: def_finger_L2_2_shd3
+    400352: def_finger_R0_0_shd1
+    400354: def_finger_R0_0_shd2
+    400356: def_finger_R0_0_shd3
+    400358: def_finger_R0_1_shd1
+    400360: def_finger_R0_1_shd2
+    400362: def_finger_R0_1_shd3
+    400364: def_finger_R0_2_shd1
+    400366: def_finger_R0_2_shd2
+    400368: def_finger_R0_2_shd3
+    400370: def_finger_R1_0_shd1
+    400372: def_finger_R1_0_shd2
+    400374: def_finger_R1_0_shd3
+    400376: def_finger_R1_1_shd1
+    400378: def_finger_R1_1_shd2
+    400380: def_finger_R1_1_shd3
+    400382: def_finger_R1_2_shd1
+    400384: def_finger_R1_2_shd2
+    400386: def_finger_R1_2_shd3
+    400388: def_finger_R2_0_shd1
+    400390: def_finger_R2_0_shd2
+    400392: def_finger_R2_0_shd3
+    400394: def_finger_R2_1_shd1
+    400396: def_finger_R2_1_shd2
+    400398: def_finger_R2_1_shd3
+    400400: def_finger_R2_2_shd1
+    400402: def_finger_R2_2_shd2
+    400404: def_finger_R2_2_shd3
+    400406: def_meta_L0_0_shd1
+    400408: def_meta_L0_0_shd2
+    400410: def_meta_L0_0_shd3
+    400412: def_meta_L0_1_shd1
+    400414: def_meta_L0_1_shd2
+    400416: def_meta_L0_1_shd3
+    400418: def_meta_L0_end_shd1
+    400420: def_meta_L0_end_shd2
+    400422: def_meta_L0_end_shd3
+    400424: def_meta_R0_0_shd1
+    400426: def_meta_R0_0_shd2
+    400428: def_meta_R0_0_shd3
+    400430: def_meta_R0_1_shd1
+    400432: def_meta_R0_1_shd2
+    400434: def_meta_R0_1_shd3
+    400436: def_meta_R0_end_shd1
+    400438: def_meta_R0_end_shd2
+    400440: def_meta_R0_end_shd3
+    400442: def_shoulder_L0_0_shd1
+    400444: def_shoulder_L0_0_shd2
+    400446: def_shoulder_L0_0_shd3
+    400448: def_shoulder_R0_0_shd1
+    400450: def_shoulder_R0_0_shd2
+    400452: def_shoulder_R0_0_shd3
+    400454: MENTALARMS
+    400456: MENTALARMS_SHADOW
+    4300000: Arms1
+    4300002: JAKE_body1
+    4300004: Rgh_Leg
+    4300006: Lft_Leg
+    4300008: MENTALARMS
+    7400000: jakeHERO
+    9500000: //RootNode
+    13700000: Arms1
+    13700002: JAKE_body1
+    13700004: Lft_Leg
+    13700006: Rgh_Leg
+    13700008: MENTALARMS
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.1
+    animationPositionError: 0.1
+    animationScaleError: 0.1
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: jakeHERO
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms1
+        weight: 1
+      - path: camera
+        weight: 1
+      - path: FaceState
+        weight: 1
+      - path: JAKE_body1
+        weight: 1
+      - path: Lft_Leg
+        weight: 1
+      - path: MENTALARMS
+        weight: 1
+      - path: MENTALARMS_SHADOW
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_0_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_0_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_0_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_1_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_1_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_1_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_2_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_2_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_2_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_3_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_3_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_3_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_4_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_4_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_4_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_5_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_5_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_5_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_6_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_6_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_6_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_7_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_7_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_7_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_8_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_8_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_8_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_end_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_end_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_L0_end_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_0_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_0_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_0_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_1_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_1_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_1_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_2_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_2_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_2_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_3_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_3_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_3_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_4_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_4_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_4_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_5_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_5_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_5_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_6_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_6_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_6_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_7_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_7_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_7_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_8_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_8_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_8_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_end_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_end_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_arm_R0_end_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L0_0_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L0_0_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L0_0_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L0_1_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L0_1_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L0_1_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L0_2_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L0_2_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L0_2_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L1_0_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L1_0_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L1_0_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L1_1_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L1_1_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L1_1_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L1_2_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L1_2_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L1_2_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L2_0_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L2_0_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L2_0_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L2_1_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L2_1_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L2_1_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L2_2_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L2_2_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_L2_2_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R0_0_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R0_0_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R0_0_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R0_1_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R0_1_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R0_1_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R0_2_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R0_2_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R0_2_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R1_0_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R1_0_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R1_0_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R1_1_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R1_1_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R1_1_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R1_2_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R1_2_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R1_2_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R2_0_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R2_0_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R2_0_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R2_1_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R2_1_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R2_1_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R2_2_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R2_2_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_finger_R2_2_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_L0_0_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_L0_0_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_L0_0_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_L0_1_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_L0_1_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_L0_1_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_L0_end_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_L0_end_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_L0_end_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_R0_0_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_R0_0_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_R0_0_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_R0_1_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_R0_1_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_R0_1_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_R0_end_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_R0_end_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_meta_R0_end_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_shoulder_L0_0_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_shoulder_L0_0_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_shoulder_L0_0_shd3
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_shoulder_R0_0_shd1
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_shoulder_R0_0_shd2
+        weight: 1
+      - path: MENTALARMS_SHADOW/def_shoulder_R0_0_shd3
+        weight: 1
+      - path: Rgh_Leg
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

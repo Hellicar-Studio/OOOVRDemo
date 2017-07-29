@@ -1,0 +1,1290 @@
+fileFormatVersion: 2
+guid: 431d8d68ef8aadc4294dc9504714a36d
+timeCreated: 1461930700
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bone
+    100002: bone1
+    100004: bone10
+    100006: bone11
+    100008: bone12
+    100010: bone13
+    100012: bone14
+    100014: bone15
+    100016: bone16
+    100018: bone17
+    100020: bone2
+    100022: bone3
+    100024: bone4
+    100026: bone5
+    100028: bone6
+    100030: bone7
+    100032: bone8
+    100034: bone9
+    100036: //RootNode
+    100038: eff
+    100040: GROW1
+    100042: GROW1_NeutralPose
+    100044: GROW2
+    100046: GROW2_NeutralPose
+    100048: GROW3
+    100050: GROW3_NeutralPose
+    100052: GROW4
+    100054: GROW4_NeutralPose
+    100056: GROW5
+    100058: GROW5_NeutralPose
+    100060: GROW6
+    100062: GROW6_NeutralPose
+    100064: GROWPARENT1
+    100066: GROWPARENT1_NeutralPose
+    100068: GROWPARENT2
+    100070: GROWPARENT2_NeutralPose
+    100072: GROWPARENT3
+    100074: GROWPARENT3_NeutralPose
+    100076: GROWPARENT4
+    100078: GROWPARENT4_NeutralPose
+    100080: GROWPARENT5
+    100082: GROWPARENT5_NeutralPose
+    100084: GROWPARENT6
+    100086: GROWPARENT6_NeutralPose
+    100088: PIV1
+    100090: PIV1_NeutralPose
+    100092: PIV2
+    100094: PIV2_NeutralPose
+    100096: PIV3
+    100098: PIV3_NeutralPose
+    100100: PIV4
+    100102: PIV4_NeutralPose
+    100104: PIV5
+    100106: PIV5_NeutralPose
+    100108: PIV6
+    100110: PIV6_NeutralPose
+    100112: PIV7
+    100114: shadowNulls
+    100116: Texture_Support
+    100118: Texture_Support1
+    100120: Texture_Support10
+    100122: Texture_Support11
+    100124: Texture_Support12
+    100126: Texture_Support2
+    100128: Texture_Support3
+    100130: Texture_Support4
+    100132: Texture_Support5
+    100134: Texture_Support6
+    100136: Texture_Support7
+    100138: Texture_Support8
+    100140: Texture_Support9
+    100142: TREELUMP1
+    100144: TREELUMP10
+    100146: TREELUMP11
+    100148: TREELUMP12
+    100150: TREELUMP13
+    100152: TREELUMP2
+    100154: TREELUMP3
+    100156: TREELUMP4
+    100158: TREELUMP5
+    100160: TREELUMP6
+    100162: TREELUMP7
+    100164: TREELUMP8
+    100166: TREELUMP9
+    100168: treeTop
+    100170: TRUNK_ENV
+    400000: bone
+    400002: bone1
+    400004: bone10
+    400006: bone11
+    400008: bone12
+    400010: bone13
+    400012: bone14
+    400014: bone15
+    400016: bone16
+    400018: bone17
+    400020: bone2
+    400022: bone3
+    400024: bone4
+    400026: bone5
+    400028: bone6
+    400030: bone7
+    400032: bone8
+    400034: bone9
+    400036: //RootNode
+    400038: eff
+    400040: GROW1
+    400042: GROW1_NeutralPose
+    400044: GROW2
+    400046: GROW2_NeutralPose
+    400048: GROW3
+    400050: GROW3_NeutralPose
+    400052: GROW4
+    400054: GROW4_NeutralPose
+    400056: GROW5
+    400058: GROW5_NeutralPose
+    400060: GROW6
+    400062: GROW6_NeutralPose
+    400064: GROWPARENT1
+    400066: GROWPARENT1_NeutralPose
+    400068: GROWPARENT2
+    400070: GROWPARENT2_NeutralPose
+    400072: GROWPARENT3
+    400074: GROWPARENT3_NeutralPose
+    400076: GROWPARENT4
+    400078: GROWPARENT4_NeutralPose
+    400080: GROWPARENT5
+    400082: GROWPARENT5_NeutralPose
+    400084: GROWPARENT6
+    400086: GROWPARENT6_NeutralPose
+    400088: PIV1
+    400090: PIV1_NeutralPose
+    400092: PIV2
+    400094: PIV2_NeutralPose
+    400096: PIV3
+    400098: PIV3_NeutralPose
+    400100: PIV4
+    400102: PIV4_NeutralPose
+    400104: PIV5
+    400106: PIV5_NeutralPose
+    400108: PIV6
+    400110: PIV6_NeutralPose
+    400112: PIV7
+    400114: shadowNulls
+    400116: Texture_Support
+    400118: Texture_Support1
+    400120: Texture_Support10
+    400122: Texture_Support11
+    400124: Texture_Support12
+    400126: Texture_Support2
+    400128: Texture_Support3
+    400130: Texture_Support4
+    400132: Texture_Support5
+    400134: Texture_Support6
+    400136: Texture_Support7
+    400138: Texture_Support8
+    400140: Texture_Support9
+    400142: TREELUMP1
+    400144: TREELUMP10
+    400146: TREELUMP11
+    400148: TREELUMP12
+    400150: TREELUMP13
+    400152: TREELUMP2
+    400154: TREELUMP3
+    400156: TREELUMP4
+    400158: TREELUMP5
+    400160: TREELUMP6
+    400162: TREELUMP7
+    400164: TREELUMP8
+    400166: TREELUMP9
+    400168: treeTop
+    400170: TRUNK_ENV
+    2300000: TREELUMP1
+    2300002: TREELUMP10
+    2300004: TREELUMP11
+    2300006: TREELUMP12
+    2300008: TREELUMP13
+    2300010: TREELUMP2
+    2300012: TREELUMP3
+    2300014: TREELUMP4
+    2300016: TREELUMP5
+    2300018: TREELUMP6
+    2300020: TREELUMP7
+    2300022: TREELUMP8
+    2300024: TREELUMP9
+    3300000: TREELUMP1
+    3300002: TREELUMP10
+    3300004: TREELUMP11
+    3300006: TREELUMP12
+    3300008: TREELUMP13
+    3300010: TREELUMP2
+    3300012: TREELUMP3
+    3300014: TREELUMP4
+    3300016: TREELUMP5
+    3300018: TREELUMP6
+    3300020: TREELUMP7
+    3300022: TREELUMP8
+    3300024: TREELUMP9
+    4300000: TRUNK_ENV
+    4300002: TREELUMP7
+    4300004: TREELUMP13
+    4300006: TREELUMP12
+    4300008: TREELUMP11
+    4300010: TREELUMP10
+    4300012: TREELUMP9
+    4300014: TREELUMP8
+    4300016: TREELUMP6
+    4300018: TREELUMP5
+    4300020: TREELUMP4
+    4300022: TREELUMP3
+    4300024: TREELUMP2
+    4300026: TREELUMP1
+    7400000: cottonCandy_idle_01
+    7400002: cottonCandy_grow
+    7400004: cottonCandy_pop
+    7400006: cottonCandy_idle_02
+    7400008: cottonCandy_idle_03
+    9500000: //RootNode
+    13700000: TRUNK_ENV
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.1
+    animationPositionError: 0.1
+    animationScaleError: 0.1
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: cottonCandy_idle_01
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/bone
+        weight: 1
+      - path: shadowNulls/bone1
+        weight: 1
+      - path: shadowNulls/bone2
+        weight: 1
+      - path: shadowNulls/bone3
+        weight: 1
+      - path: shadowNulls/bone4
+        weight: 1
+      - path: shadowNulls/bone5
+        weight: 1
+      - path: shadowNulls/bone6
+        weight: 1
+      - path: shadowNulls/bone7
+        weight: 1
+      - path: shadowNulls/bone8
+        weight: 1
+      - path: shadowNulls/bone9
+        weight: 1
+      - path: shadowNulls/bone10
+        weight: 1
+      - path: shadowNulls/bone11
+        weight: 1
+      - path: shadowNulls/bone12
+        weight: 1
+      - path: shadowNulls/bone13
+        weight: 1
+      - path: shadowNulls/bone14
+        weight: 1
+      - path: shadowNulls/bone15
+        weight: 1
+      - path: shadowNulls/bone16
+        weight: 1
+      - path: shadowNulls/bone17
+        weight: 1
+      - path: shadowNulls/eff
+        weight: 1
+      - path: treeTop
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1/TREELUMP8
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1/TREELUMP8/Texture_Support7
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2/TREELUMP9
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2/TREELUMP9/Texture_Support8
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3/TREELUMP10
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3/TREELUMP10/Texture_Support9
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4/TREELUMP11
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4/TREELUMP11/Texture_Support10
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5/TREELUMP12
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5/TREELUMP12/Texture_Support11
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6/TREELUMP13
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6/TREELUMP13/Texture_Support12
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1/TREELUMP1
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1/TREELUMP1/Texture_Support
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2/TREELUMP2
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2/TREELUMP2/Texture_Support1
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3/TREELUMP3
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3/TREELUMP3/Texture_Support2
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4/TREELUMP4
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4/TREELUMP4/Texture_Support3
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5/TREELUMP5
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5/TREELUMP5/Texture_Support4
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6/TREELUMP6
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6/TREELUMP6/Texture_Support5
+        weight: 1
+      - path: treeTop/PIV7
+        weight: 1
+      - path: treeTop/PIV7/TREELUMP7
+        weight: 1
+      - path: treeTop/PIV7/TREELUMP7/Texture_Support6
+        weight: 1
+      - path: TRUNK_ENV
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cottonCandy_grow
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 175
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/bone
+        weight: 1
+      - path: shadowNulls/bone1
+        weight: 1
+      - path: shadowNulls/bone2
+        weight: 1
+      - path: shadowNulls/bone3
+        weight: 1
+      - path: shadowNulls/bone4
+        weight: 1
+      - path: shadowNulls/bone5
+        weight: 1
+      - path: shadowNulls/bone6
+        weight: 1
+      - path: shadowNulls/bone7
+        weight: 1
+      - path: shadowNulls/bone8
+        weight: 1
+      - path: shadowNulls/bone9
+        weight: 1
+      - path: shadowNulls/bone10
+        weight: 1
+      - path: shadowNulls/bone11
+        weight: 1
+      - path: shadowNulls/bone12
+        weight: 1
+      - path: shadowNulls/bone13
+        weight: 1
+      - path: shadowNulls/bone14
+        weight: 1
+      - path: shadowNulls/bone15
+        weight: 1
+      - path: shadowNulls/bone16
+        weight: 1
+      - path: shadowNulls/bone17
+        weight: 1
+      - path: shadowNulls/eff
+        weight: 1
+      - path: treeTop
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1/TREELUMP8
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1/TREELUMP8/Texture_Support7
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2/TREELUMP9
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2/TREELUMP9/Texture_Support8
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3/TREELUMP10
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3/TREELUMP10/Texture_Support9
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4/TREELUMP11
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4/TREELUMP11/Texture_Support10
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5/TREELUMP12
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5/TREELUMP12/Texture_Support11
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6/TREELUMP13
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6/TREELUMP13/Texture_Support12
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1/TREELUMP1
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1/TREELUMP1/Texture_Support
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2/TREELUMP2
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2/TREELUMP2/Texture_Support1
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3/TREELUMP3
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3/TREELUMP3/Texture_Support2
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4/TREELUMP4
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4/TREELUMP4/Texture_Support3
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5/TREELUMP5
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5/TREELUMP5/Texture_Support4
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6/TREELUMP6
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6/TREELUMP6/Texture_Support5
+        weight: 1
+      - path: treeTop/PIV7
+        weight: 1
+      - path: treeTop/PIV7/TREELUMP7
+        weight: 1
+      - path: treeTop/PIV7/TREELUMP7/Texture_Support6
+        weight: 1
+      - path: TRUNK_ENV
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cottonCandy_pop
+      takeName: Take 001
+      firstFrame: 176
+      lastFrame: 215
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/bone
+        weight: 1
+      - path: shadowNulls/bone1
+        weight: 1
+      - path: shadowNulls/bone2
+        weight: 1
+      - path: shadowNulls/bone3
+        weight: 1
+      - path: shadowNulls/bone4
+        weight: 1
+      - path: shadowNulls/bone5
+        weight: 1
+      - path: shadowNulls/bone6
+        weight: 1
+      - path: shadowNulls/bone7
+        weight: 1
+      - path: shadowNulls/bone8
+        weight: 1
+      - path: shadowNulls/bone9
+        weight: 1
+      - path: shadowNulls/bone10
+        weight: 1
+      - path: shadowNulls/bone11
+        weight: 1
+      - path: shadowNulls/bone12
+        weight: 1
+      - path: shadowNulls/bone13
+        weight: 1
+      - path: shadowNulls/bone14
+        weight: 1
+      - path: shadowNulls/bone15
+        weight: 1
+      - path: shadowNulls/bone16
+        weight: 1
+      - path: shadowNulls/bone17
+        weight: 1
+      - path: shadowNulls/eff
+        weight: 1
+      - path: treeTop
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1/TREELUMP8
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1/TREELUMP8/Texture_Support7
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2/TREELUMP9
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2/TREELUMP9/Texture_Support8
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3/TREELUMP10
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3/TREELUMP10/Texture_Support9
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4/TREELUMP11
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4/TREELUMP11/Texture_Support10
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5/TREELUMP12
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5/TREELUMP12/Texture_Support11
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6/TREELUMP13
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6/TREELUMP13/Texture_Support12
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1/TREELUMP1
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1/TREELUMP1/Texture_Support
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2/TREELUMP2
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2/TREELUMP2/Texture_Support1
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3/TREELUMP3
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3/TREELUMP3/Texture_Support2
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4/TREELUMP4
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4/TREELUMP4/Texture_Support3
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5/TREELUMP5
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5/TREELUMP5/Texture_Support4
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6/TREELUMP6
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6/TREELUMP6/Texture_Support5
+        weight: 1
+      - path: treeTop/PIV7
+        weight: 1
+      - path: treeTop/PIV7/TREELUMP7
+        weight: 1
+      - path: treeTop/PIV7/TREELUMP7/Texture_Support6
+        weight: 1
+      - path: TRUNK_ENV
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cottonCandy_idle_02
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 33
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/bone
+        weight: 1
+      - path: shadowNulls/bone1
+        weight: 1
+      - path: shadowNulls/bone2
+        weight: 1
+      - path: shadowNulls/bone3
+        weight: 1
+      - path: shadowNulls/bone4
+        weight: 1
+      - path: shadowNulls/bone5
+        weight: 1
+      - path: shadowNulls/bone6
+        weight: 1
+      - path: shadowNulls/bone7
+        weight: 1
+      - path: shadowNulls/bone8
+        weight: 1
+      - path: shadowNulls/bone9
+        weight: 1
+      - path: shadowNulls/bone10
+        weight: 1
+      - path: shadowNulls/bone11
+        weight: 1
+      - path: shadowNulls/bone12
+        weight: 1
+      - path: shadowNulls/bone13
+        weight: 1
+      - path: shadowNulls/bone14
+        weight: 1
+      - path: shadowNulls/bone15
+        weight: 1
+      - path: shadowNulls/bone16
+        weight: 1
+      - path: shadowNulls/bone17
+        weight: 1
+      - path: shadowNulls/eff
+        weight: 1
+      - path: treeTop
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1/TREELUMP8
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1/TREELUMP8/Texture_Support7
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2/TREELUMP9
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2/TREELUMP9/Texture_Support8
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3/TREELUMP10
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3/TREELUMP10/Texture_Support9
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4/TREELUMP11
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4/TREELUMP11/Texture_Support10
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5/TREELUMP12
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5/TREELUMP12/Texture_Support11
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6/TREELUMP13
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6/TREELUMP13/Texture_Support12
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1/TREELUMP1
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1/TREELUMP1/Texture_Support
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2/TREELUMP2
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2/TREELUMP2/Texture_Support1
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3/TREELUMP3
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3/TREELUMP3/Texture_Support2
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4/TREELUMP4
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4/TREELUMP4/Texture_Support3
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5/TREELUMP5
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5/TREELUMP5/Texture_Support4
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6/TREELUMP6
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6/TREELUMP6/Texture_Support5
+        weight: 1
+      - path: treeTop/PIV7
+        weight: 1
+      - path: treeTop/PIV7/TREELUMP7
+        weight: 1
+      - path: treeTop/PIV7/TREELUMP7/Texture_Support6
+        weight: 1
+      - path: TRUNK_ENV
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cottonCandy_idle_03
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 66
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/bone
+        weight: 1
+      - path: shadowNulls/bone1
+        weight: 1
+      - path: shadowNulls/bone2
+        weight: 1
+      - path: shadowNulls/bone3
+        weight: 1
+      - path: shadowNulls/bone4
+        weight: 1
+      - path: shadowNulls/bone5
+        weight: 1
+      - path: shadowNulls/bone6
+        weight: 1
+      - path: shadowNulls/bone7
+        weight: 1
+      - path: shadowNulls/bone8
+        weight: 1
+      - path: shadowNulls/bone9
+        weight: 1
+      - path: shadowNulls/bone10
+        weight: 1
+      - path: shadowNulls/bone11
+        weight: 1
+      - path: shadowNulls/bone12
+        weight: 1
+      - path: shadowNulls/bone13
+        weight: 1
+      - path: shadowNulls/bone14
+        weight: 1
+      - path: shadowNulls/bone15
+        weight: 1
+      - path: shadowNulls/bone16
+        weight: 1
+      - path: shadowNulls/bone17
+        weight: 1
+      - path: shadowNulls/eff
+        weight: 1
+      - path: treeTop
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1/TREELUMP8
+        weight: 1
+      - path: treeTop/GROWPARENT1_NeutralPose/GROWPARENT1/GROW1_NeutralPose/GROW1/TREELUMP8/Texture_Support7
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2/TREELUMP9
+        weight: 1
+      - path: treeTop/GROWPARENT2_NeutralPose/GROWPARENT2/GROW2_NeutralPose/GROW2/TREELUMP9/Texture_Support8
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3/TREELUMP10
+        weight: 1
+      - path: treeTop/GROWPARENT3_NeutralPose/GROWPARENT3/GROW3_NeutralPose/GROW3/TREELUMP10/Texture_Support9
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4/TREELUMP11
+        weight: 1
+      - path: treeTop/GROWPARENT4_NeutralPose/GROWPARENT4/GROW4_NeutralPose/GROW4/TREELUMP11/Texture_Support10
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5/TREELUMP12
+        weight: 1
+      - path: treeTop/GROWPARENT5_NeutralPose/GROWPARENT5/GROW5_NeutralPose/GROW5/TREELUMP12/Texture_Support11
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6/TREELUMP13
+        weight: 1
+      - path: treeTop/GROWPARENT6_NeutralPose/GROWPARENT6/GROW6_NeutralPose/GROW6/TREELUMP13/Texture_Support12
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1/TREELUMP1
+        weight: 1
+      - path: treeTop/PIV1_NeutralPose/PIV1/TREELUMP1/Texture_Support
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2/TREELUMP2
+        weight: 1
+      - path: treeTop/PIV2_NeutralPose/PIV2/TREELUMP2/Texture_Support1
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3/TREELUMP3
+        weight: 1
+      - path: treeTop/PIV3_NeutralPose/PIV3/TREELUMP3/Texture_Support2
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4/TREELUMP4
+        weight: 1
+      - path: treeTop/PIV4_NeutralPose/PIV4/TREELUMP4/Texture_Support3
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5/TREELUMP5
+        weight: 1
+      - path: treeTop/PIV5_NeutralPose/PIV5/TREELUMP5/Texture_Support4
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6/TREELUMP6
+        weight: 1
+      - path: treeTop/PIV6_NeutralPose/PIV6/TREELUMP6/Texture_Support5
+        weight: 1
+      - path: treeTop/PIV7
+        weight: 1
+      - path: treeTop/PIV7/TREELUMP7
+        weight: 1
+      - path: treeTop/PIV7/TREELUMP7/Texture_Support6
+        weight: 1
+      - path: TRUNK_ENV
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

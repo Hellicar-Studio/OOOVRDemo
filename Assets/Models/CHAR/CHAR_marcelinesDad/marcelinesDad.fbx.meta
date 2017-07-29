@@ -1,0 +1,1390 @@
+fileFormatVersion: 2
+guid: 226f15b554926164fbbc70fbe33d61d1
+timeCreated: 1460651066
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: DadGeo
+    100002: //RootNode
+    100004: MarcelinesDad
+    100006: eye_L
+    100008: eye_R
+    100010: def_arm_L0_0_shd
+    100012: def_arm_L0_1_shd
+    100014: def_arm_L0_2_shd
+    100016: def_arm_L0_3_shd
+    100018: def_arm_L0_4_shd
+    100020: def_arm_L0_5_shd
+    100022: def_arm_L0_6_shd
+    100024: def_arm_L0_7_shd
+    100026: def_arm_L0_8_shd
+    100028: def_arm_L0_end_shd
+    100030: def_arm_R0_0_shd
+    100032: def_arm_R0_1_shd
+    100034: def_arm_R0_2_shd
+    100036: def_arm_R0_3_shd
+    100038: def_arm_R0_4_shd
+    100040: def_arm_R0_5_shd
+    100042: def_arm_R0_6_shd
+    100044: def_arm_R0_7_shd
+    100046: def_arm_R0_8_shd
+    100048: def_arm_R0_end_shd
+    100050: def_finger_L0_0_shd
+    100052: def_finger_L0_1_shd
+    100054: def_finger_L0_2_shd
+    100056: def_finger_L1_0_shd
+    100058: def_finger_L1_1_shd
+    100060: def_finger_L1_2_shd
+    100062: def_finger_L2_0_shd
+    100064: def_finger_L2_1_shd
+    100066: def_finger_L2_2_shd
+    100068: def_finger_R0_0_shd
+    100070: def_finger_R0_1_shd
+    100072: def_finger_R0_2_shd
+    100074: def_finger_R1_0_shd
+    100076: def_finger_R1_1_shd
+    100078: def_finger_R1_2_shd
+    100080: def_finger_R2_0_shd
+    100082: def_finger_R2_1_shd
+    100084: def_finger_R2_2_shd
+    100086: def_foot_L0_0_shd1
+    100088: def_foot_L0_1_shd1
+    100090: def_foot_L0_2_shd1
+    100092: def_foot_R0_0_shd1
+    100094: def_foot_R0_1_shd1
+    100096: def_foot_R0_2_shd1
+    100098: def_leg_L0_0_shd1
+    100100: def_leg_L0_1_shd1
+    100102: def_leg_L0_2_shd1
+    100104: def_leg_L0_3_shd1
+    100106: def_leg_L0_4_shd1
+    100108: def_leg_L0_5_shd1
+    100110: def_leg_L0_6_shd1
+    100112: def_leg_L0_7_shd1
+    100114: def_leg_L0_8_shd1
+    100116: def_leg_L0_end_shd1
+    100118: def_leg_R0_0_shd1
+    100120: def_leg_R0_1_shd1
+    100122: def_leg_R0_2_shd1
+    100124: def_leg_R0_3_shd1
+    100126: def_leg_R0_4_shd1
+    100128: def_leg_R0_5_shd1
+    100130: def_leg_R0_6_shd1
+    100132: def_leg_R0_7_shd1
+    100134: def_leg_R0_8_shd1
+    100136: def_leg_R0_end_shd1
+    100138: def_meta_L0_0_shd
+    100140: def_meta_L0_1_shd
+    100142: def_meta_L0_end_shd
+    100144: def_meta_R0_0_shd
+    100146: def_meta_R0_1_shd
+    100148: def_meta_R0_end_shd
+    100150: def_neck_C0_0_shd
+    100152: def_neck_C0_1_shd
+    100154: def_neck_C0_2_shd
+    100156: def_neck_C0_head_shd
+    100158: def_shoulder_L0_0_shd
+    100160: def_shoulder_R0_0_shd
+    100162: def_spine_C0_0_shd
+    100164: def_spine_C0_1_shd
+    100166: def_spine_C0_2_shd
+    100168: def_spine_C0_3_shd
+    100170: def_spine_C0_4_shd
+    100172: def_thumb_L0_0_shd
+    100174: def_thumb_L0_1_shd
+    100176: def_thumb_L0_2_shd
+    100178: def_thumb_R0_0_shd
+    100180: def_thumb_R0_1_shd
+    100182: def_thumb_R0_2_shd
+    100184: marcelinesDad
+    100186: shadowNulls
+    100188: def_foot_L0_0_shd
+    100190: def_foot_L0_1_shd
+    100192: def_foot_L0_2_shd
+    100194: def_foot_R0_0_shd
+    100196: def_foot_R0_1_shd
+    100198: def_foot_R0_2_shd
+    100200: def_leg_L0_0_shd
+    100202: def_leg_L0_1_shd
+    100204: def_leg_L0_2_shd
+    100206: def_leg_L0_3_shd
+    100208: def_leg_L0_4_shd
+    100210: def_leg_L0_5_shd
+    100212: def_leg_L0_6_shd
+    100214: def_leg_L0_7_shd
+    100216: def_leg_L0_8_shd
+    100218: def_leg_L0_end_shd
+    100220: def_leg_R0_0_shd
+    100222: def_leg_R0_1_shd
+    100224: def_leg_R0_2_shd
+    100226: def_leg_R0_3_shd
+    100228: def_leg_R0_4_shd
+    100230: def_leg_R0_5_shd
+    100232: def_leg_R0_6_shd
+    100234: def_leg_R0_7_shd
+    100236: def_leg_R0_8_shd
+    100238: def_leg_R0_end_shd
+    100240: FaceState
+    400000: DadGeo
+    400002: //RootNode
+    400004: MarcelinesDad
+    400006: eye_L
+    400008: eye_R
+    400010: def_arm_L0_0_shd
+    400012: def_arm_L0_1_shd
+    400014: def_arm_L0_2_shd
+    400016: def_arm_L0_3_shd
+    400018: def_arm_L0_4_shd
+    400020: def_arm_L0_5_shd
+    400022: def_arm_L0_6_shd
+    400024: def_arm_L0_7_shd
+    400026: def_arm_L0_8_shd
+    400028: def_arm_L0_end_shd
+    400030: def_arm_R0_0_shd
+    400032: def_arm_R0_1_shd
+    400034: def_arm_R0_2_shd
+    400036: def_arm_R0_3_shd
+    400038: def_arm_R0_4_shd
+    400040: def_arm_R0_5_shd
+    400042: def_arm_R0_6_shd
+    400044: def_arm_R0_7_shd
+    400046: def_arm_R0_8_shd
+    400048: def_arm_R0_end_shd
+    400050: def_finger_L0_0_shd
+    400052: def_finger_L0_1_shd
+    400054: def_finger_L0_2_shd
+    400056: def_finger_L1_0_shd
+    400058: def_finger_L1_1_shd
+    400060: def_finger_L1_2_shd
+    400062: def_finger_L2_0_shd
+    400064: def_finger_L2_1_shd
+    400066: def_finger_L2_2_shd
+    400068: def_finger_R0_0_shd
+    400070: def_finger_R0_1_shd
+    400072: def_finger_R0_2_shd
+    400074: def_finger_R1_0_shd
+    400076: def_finger_R1_1_shd
+    400078: def_finger_R1_2_shd
+    400080: def_finger_R2_0_shd
+    400082: def_finger_R2_1_shd
+    400084: def_finger_R2_2_shd
+    400086: def_foot_L0_0_shd1
+    400088: def_foot_L0_1_shd1
+    400090: def_foot_L0_2_shd1
+    400092: def_foot_R0_0_shd1
+    400094: def_foot_R0_1_shd1
+    400096: def_foot_R0_2_shd1
+    400098: def_leg_L0_0_shd1
+    400100: def_leg_L0_1_shd1
+    400102: def_leg_L0_2_shd1
+    400104: def_leg_L0_3_shd1
+    400106: def_leg_L0_4_shd1
+    400108: def_leg_L0_5_shd1
+    400110: def_leg_L0_6_shd1
+    400112: def_leg_L0_7_shd1
+    400114: def_leg_L0_8_shd1
+    400116: def_leg_L0_end_shd1
+    400118: def_leg_R0_0_shd1
+    400120: def_leg_R0_1_shd1
+    400122: def_leg_R0_2_shd1
+    400124: def_leg_R0_3_shd1
+    400126: def_leg_R0_4_shd1
+    400128: def_leg_R0_5_shd1
+    400130: def_leg_R0_6_shd1
+    400132: def_leg_R0_7_shd1
+    400134: def_leg_R0_8_shd1
+    400136: def_leg_R0_end_shd1
+    400138: def_meta_L0_0_shd
+    400140: def_meta_L0_1_shd
+    400142: def_meta_L0_end_shd
+    400144: def_meta_R0_0_shd
+    400146: def_meta_R0_1_shd
+    400148: def_meta_R0_end_shd
+    400150: def_neck_C0_0_shd
+    400152: def_neck_C0_1_shd
+    400154: def_neck_C0_2_shd
+    400156: def_neck_C0_head_shd
+    400158: def_shoulder_L0_0_shd
+    400160: def_shoulder_R0_0_shd
+    400162: def_spine_C0_0_shd
+    400164: def_spine_C0_1_shd
+    400166: def_spine_C0_2_shd
+    400168: def_spine_C0_3_shd
+    400170: def_spine_C0_4_shd
+    400172: def_thumb_L0_0_shd
+    400174: def_thumb_L0_1_shd
+    400176: def_thumb_L0_2_shd
+    400178: def_thumb_R0_0_shd
+    400180: def_thumb_R0_1_shd
+    400182: def_thumb_R0_2_shd
+    400184: marcelinesDad
+    400186: shadowNulls
+    400188: def_foot_L0_0_shd
+    400190: def_foot_L0_1_shd
+    400192: def_foot_L0_2_shd
+    400194: def_foot_R0_0_shd
+    400196: def_foot_R0_1_shd
+    400198: def_foot_R0_2_shd
+    400200: def_leg_L0_0_shd
+    400202: def_leg_L0_1_shd
+    400204: def_leg_L0_2_shd
+    400206: def_leg_L0_3_shd
+    400208: def_leg_L0_4_shd
+    400210: def_leg_L0_5_shd
+    400212: def_leg_L0_6_shd
+    400214: def_leg_L0_7_shd
+    400216: def_leg_L0_8_shd
+    400218: def_leg_L0_end_shd
+    400220: def_leg_R0_0_shd
+    400222: def_leg_R0_1_shd
+    400224: def_leg_R0_2_shd
+    400226: def_leg_R0_3_shd
+    400228: def_leg_R0_4_shd
+    400230: def_leg_R0_5_shd
+    400232: def_leg_R0_6_shd
+    400234: def_leg_R0_7_shd
+    400236: def_leg_R0_8_shd
+    400238: def_leg_R0_end_shd
+    400240: FaceState
+    2300000: DadGeo
+    2300002: MarcelinesDad
+    2300004: eye_L
+    2300006: eye_R
+    3300000: DadGeo
+    3300002: MarcelinesDad
+    3300004: eye_L
+    3300006: eye_R
+    4300000: DadGeo
+    4300002: MarcelinesDad
+    4300004: eye_R
+    4300006: eye_L
+    4300008: marcelinesDad
+    7400000: hudson_idle01
+    7400002: hudson_idle02
+    7400004: hudson_damage
+    7400006: Take 0012
+    7400008: hudson_idle03
+    7400010: hudson_idle04
+    9500000: //RootNode
+    13700000: marcelinesDad
+    13700002: eye_L
+    13700004: eye_R
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.1
+    animationPositionError: 0.1
+    animationScaleError: 0.1
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: hudson_idle01
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_L
+        weight: 1
+      - path: eye_R
+        weight: 1
+      - path: marcelinesDad
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hudson_idle02
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 174
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_L
+        weight: 1
+      - path: eye_R
+        weight: 1
+      - path: marcelinesDad
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hudson_damage
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 322
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_L
+        weight: 1
+      - path: eye_R
+        weight: 1
+      - path: marcelinesDad
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_8_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hudson_idle03
+      takeName: Take 001
+      firstFrame: 175
+      lastFrame: 224
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_L
+        weight: 1
+      - path: eye_R
+        weight: 1
+      - path: marcelinesDad
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hudson_idle04
+      takeName: Take 001
+      firstFrame: 225
+      lastFrame: 299
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eye_L
+        weight: 1
+      - path: eye_R
+        weight: 1
+      - path: marcelinesDad
+        weight: 1
+      - path: shadowNulls
+        weight: 1
+      - path: shadowNulls/def_arm_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_arm_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_L2_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R1_2_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_0_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_1_shd
+        weight: 1
+      - path: shadowNulls/def_finger_R2_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_foot_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_2_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_3_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_4_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_5_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_6_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_7_shd
+        weight: 1
+      - path: shadowNulls/def_leg_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_meta_L0_end_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_meta_R0_end_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_neck_C0_head_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_shoulder_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_0_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_1_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_2_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_3_shd
+        weight: 1
+      - path: shadowNulls/def_spine_C0_4_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_L0_2_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_0_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_1_shd
+        weight: 1
+      - path: shadowNulls/def_thumb_R0_2_shd
+        weight: 1
+      - path: shadowNulls/FaceState
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
