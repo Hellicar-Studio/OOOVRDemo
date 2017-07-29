@@ -18,12 +18,11 @@ public class CharacterAnimation : MonoBehaviour
 
 	public void TriggerAnimationState(string animationStateName)
 	{
-		if (AnimatorIsPlaying(animationStateName))
-		{
-			characterAnimator.ResetTrigger(animationStateName);
-			return;
-		}
-		
 		characterAnimator.SetTrigger(animationStateName);
+	}
+
+	public void ResetAnimationTrigger(string animationStateName)
+	{
+		characterAnimator.ResetTrigger(animationStateName);
 	}
 }
