@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TeleportCharacterRenderer : MonoBehaviour 
+public class TeleportCharacterRenderer : MonoBehaviour
 {
 	public GameObject[] teleportCharacters;
 
@@ -30,5 +30,4 @@ public class TeleportCharacterRenderer : MonoBehaviour
 			}
 		}
 	}
-
 }
