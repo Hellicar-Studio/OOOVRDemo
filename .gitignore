@@ -8,6 +8,7 @@
 /Assets/Editor/GitHub.meta
 /Assets/Editor/GitHub/
 
+# Ignore the osig file
 /Assets/Plugins/Android/Assets/
 
 # Visual Studio 2015 cache directory
