@@ -43,6 +43,7 @@ public class TeleportManager : MonoBehaviour
 
 	private void AnimationEnd(CharacterManager characterManager, Transform teleportTransform)
 	{
+        characterManager.ApplyVisionEffect();
 		float duration = Random.Range(1.0f, 3.0f);
 		startCharacterColor = characterManager.characterMeta.characterColor;
 		teleportCharacterRenderer.ToggleRenderers(characterManager.gameObject);

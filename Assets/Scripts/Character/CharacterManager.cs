@@ -8,6 +8,7 @@ public class CharacterManager : MonoBehaviour
 	public CharacterSound  characterSound;
 	public CharacterEffect characterEffect;
 	public CharacterMeta characterMeta;
+    public CharacterVisionEffect characterVisionEffect;
 
 	private bool hasSoundPlayed;
 
@@ -30,4 +31,15 @@ public class CharacterManager : MonoBehaviour
 	{
 		characterEffect.SpawnParticles();
 	}
+
+    public void ApplyVisionEffect()
+    {
+        if(characterVisionEffect != null)
+            characterVisionEffect.enabled = true;
+    }
+    public void RemoveVisionEffect()
+    {
+        if (characterVisionEffect != null)
+            characterVisionEffect.enabled = false;
+    }
 }
