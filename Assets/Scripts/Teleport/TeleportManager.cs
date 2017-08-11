@@ -8,6 +8,7 @@ public class TeleportManager : MonoBehaviour
 	public TeleportAnimation teleportAnimation;
 	public TeleportEffect teleportEffect;
 	public TeleportCharacterRenderer teleportCharacterRenderer;
+    public TeleportCharacterVisionEffect teleportCharacterVisionEffect;
 	public Color startCharacterColor = Color.white;
 	public float distancePadding = 0.5f;
 
@@ -43,7 +44,8 @@ public class TeleportManager : MonoBehaviour
 
 	private void AnimationEnd(CharacterManager characterManager, Transform teleportTransform)
 	{
-        characterManager.ApplyVisionEffect();
+        teleportCharacterVisionEffect.disableAllVisionEffects();
+        teleportCharacterVisionEffect.enablevisionEffect(characterManager);
 		float duration = Random.Range(1.0f, 3.0f);
 		startCharacterColor = characterManager.characterMeta.characterColor;
 		teleportCharacterRenderer.ToggleRenderers(characterManager.gameObject);

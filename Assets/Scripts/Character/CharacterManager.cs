@@ -32,12 +32,12 @@ public class CharacterManager : MonoBehaviour
 		characterEffect.SpawnParticles();
 	}
 
-    public void ApplyVisionEffect()
+    public void EnableVisionEffect()
     {
         if(characterVisionEffect != null)
             characterVisionEffect.enabled = true;
     }
-    public void RemoveVisionEffect()
+    public void DisableVisionEffect()
     {
         if (characterVisionEffect != null)
             characterVisionEffect.enabled = false;
