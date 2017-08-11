@@ -5,15 +5,17 @@ using UnityEngine;
 public class TeleportCharacterVisionEffect : MonoBehaviour {
 
     private CharacterVisionEffect[] characterVisionEffects;
-	// Use this for initialization
-	void Start () {
-        GameObject cam = GameObject.Find("CenterEyeAnchor");
+	public Camera cam;
+
+	void Start()
+	{
         characterVisionEffects = cam.GetComponents<CharacterVisionEffect>();
 	}
 
     public void disableAllVisionEffects()
     {
-        foreach(CharacterVisionEffect effect in characterVisionEffects) {
+        foreach(CharacterVisionEffect effect in characterVisionEffects)
+		{
             effect.enabled = false;
         }
     }

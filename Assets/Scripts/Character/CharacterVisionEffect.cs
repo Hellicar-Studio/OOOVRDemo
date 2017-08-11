@@ -5,14 +5,13 @@ using UnityEngine;
 public class CharacterVisionEffect : MonoBehaviour {
 
     protected Material material;
-    public string shaderName;
-    // Use this for initialization
+    public Shader shader;
+
     protected void Awake()
     {
-        material = new Material(Shader.Find(shaderName));
+        material = new Material(shader);
     }
 
-    // Postprocess the image
     protected void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
         setUniforms();

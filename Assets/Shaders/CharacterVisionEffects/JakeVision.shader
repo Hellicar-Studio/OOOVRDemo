@@ -27,7 +27,8 @@
 			uniform float4 _G;
 			uniform float4 _B;
 			
-			float4 frag(v2f_img i) : COLOR{
+			float4 frag(v2f_img i) : COLOR
+			{
 				fixed4 c = tex2D(_MainTex, i.uv);
 
 				return fixed4

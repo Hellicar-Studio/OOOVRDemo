@@ -1,4 +1,5 @@
-﻿Shader "Hidden/BWDiffuse" {
+﻿Shader "Hidden/BWDiffuse" 
+{
 	Properties
 	{
 		_MainTex("Base (RGB)", 2D) = "white" {}
@@ -17,7 +18,8 @@
 			uniform sampler2D _MainTex;
 			uniform float _bwBlend;
 
-			float4 frag(v2f_img i) : COLOR{
+			float4 frag(v2f_img i) : COLOR
+			{
 				float4 c = tex2D(_MainTex, i.uv);
 
 				float lum = c.r*.3 + c.g*.59 + c.b*.11;

@@ -21,7 +21,8 @@
 			uniform float _DeltaX;
 			uniform float _DeltaY;
 
-			float sobel(sampler2D tex, float2 uv) {
+			float sobel(sampler2D tex, float2 uv) 
+			{
 				float2 delta = float2(_DeltaX, _DeltaY);
 
 				float4 hr = float4(0, 0, 0, 0);
@@ -50,23 +51,15 @@
 				return sqrt(hr * hr + vt * vt);
 			}
 
-			float4 frag(v2f_img i) : COLOR{
-				//float4 c = tex2D(_MainTex, i.uv);
-
-				//float lum = c.r*.3 + c.g*.59 + c.b*.11;
-				//float3 bw = float3(lum, lum, lum);
-
-				//float4 result = float4(1, 1, 1, 1);
-
+			float4 frag(v2f_img i) : COLOR
+			{
 				float3 colLow = float3(0.07, 0.52, 0);
 				float3 colHigh = float3(0.12, 1, 0);
 
-				float4 result = float4(1, 1, 1, 1);// = c;
-												   //result.rgb = lerp(c.rgb, bw, _bwBlend);
+				float4 result = float4(1, 1, 1, 1);
+
 				float s = sobel(_MainTex, i.uv);
 				result.rgb = lerp(colLow, colHigh, s);
-				//result.r = _DeltaX;
-				//result.g = _DeltaY;
 				return result;
 			}
 			ENDCG
