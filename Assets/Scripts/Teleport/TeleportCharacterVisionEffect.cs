@@ -4,24 +4,22 @@ using UnityEngine;
 
 public class TeleportCharacterVisionEffect : MonoBehaviour {
 
-    private CharacterVisionEffect[] characterVisionEffects;
 	public Camera cam;
+	private CharacterVisionEffectApplier characterVisionEffectApplier;
 
 	void Start()
 	{
-        characterVisionEffects = cam.GetComponents<CharacterVisionEffect>();
+		characterVisionEffectApplier = cam.GetComponent<CharacterVisionEffectApplier>();
 	}
 
     public void disableAllVisionEffects()
     {
-        foreach(CharacterVisionEffect effect in characterVisionEffects)
-		{
-            effect.enabled = false;
-        }
+		characterVisionEffectApplier.setCharacterVisionEffect(null);
     }
 
     public void enablevisionEffect(CharacterManager characterManager)
     {
-        characterManager.EnableVisionEffect();
+		characterVisionEffectApplier.setCharacterVisionEffect(characterManager.characterVisionEffect);
     }
 }
+

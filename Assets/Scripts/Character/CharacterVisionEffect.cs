@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class CharacterVisionEffect : MonoBehaviour {
 
-    protected Material material;
+	[HideInInspector]
+    public Material material;
+
     public Shader shader;
 
     protected void Awake()
@@ -12,13 +14,7 @@ public class CharacterVisionEffect : MonoBehaviour {
         material = new Material(shader);
     }
 
-    protected void OnRenderImage(RenderTexture source, RenderTexture destination)
-    {
-        setUniforms();
-        Graphics.Blit(source, destination, material);
-    }
-
-    protected virtual void setUniforms()
+    public virtual void setUniforms()
     {
 
     }
