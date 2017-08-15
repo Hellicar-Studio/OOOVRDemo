@@ -37,7 +37,7 @@ Shader "JRW/TextureWithFace" {
             #include "UnityStandardBRDF.cginc"
             #pragma multi_compile_fwdbase_fullshadows
             #pragma multi_compile_fog
-            #pragma only_renderers d3d9 d3d11 glcore gles gles3 
+            #pragma only_renderers d3d9 d3d11 glcore gles gles3 d3d11_9x 
             #pragma target 3.0
             uniform sampler2D _MainTex; uniform float4 _MainTex_ST;
             uniform sampler2D _Face; uniform float4 _Face_ST;
@@ -175,7 +175,7 @@ Shader "JRW/TextureWithFace" {
             #include "UnityStandardBRDF.cginc"
             #pragma multi_compile_fwdadd_fullshadows
             #pragma multi_compile_fog
-            #pragma only_renderers d3d9 d3d11 glcore gles gles3 
+            #pragma only_renderers d3d9 d3d11 glcore gles gles3 d3d11_9x 
             #pragma target 3.0
             uniform sampler2D _MainTex; uniform float4 _MainTex_ST;
             uniform sampler2D _Face; uniform float4 _Face_ST;
