@@ -11,9 +11,19 @@ public class CharacterAnimation : MonoBehaviour
 		return characterAnimator.GetCurrentAnimatorStateInfo(0).length > characterAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime;
 	}
 
+	public bool IsInTransition(int layerIndex)
+	{
+		return characterAnimator.IsInTransition(layerIndex);
+	}
+
+	public bool IsNameNextState(int layerIndex, string name)
+	{
+		return characterAnimator.GetNextAnimatorStateInfo(layerIndex).IsName(name);
+	}
+
 	public bool AnimatorIsPlaying(string animationStateName)
 	{
-		return AnimatorIsPlaying() && characterAnimator.GetCurrentAnimatorStateInfo(0).IsName(animationStateName);
+		return AnimatorIsPlaying() && characterAnimator.GetNextAnimatorStateInfo(0).IsName(animationStateName);
 	}
 
 	public void TriggerAnimationState(string animationStateName)

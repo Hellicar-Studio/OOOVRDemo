@@ -75,6 +75,7 @@ public class ActionManager : MonoBehaviour
 		
 		characterManager.PlayAnimation(actionAnimationState);
 		characterManager.PlaySound();
+		characterManager.EnableMoverTriggerState();
 
 		TeleportTarget teleportTarget = characterManager.GetComponentInParent<TeleportTarget>();
 		if (!teleportTarget) {
