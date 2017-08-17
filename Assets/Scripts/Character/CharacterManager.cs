@@ -9,8 +9,7 @@ public class CharacterManager : MonoBehaviour
 	public CharacterEffect characterEffect;
 	public CharacterMeta characterMeta;
 	public CharacterVisionEffect characterVisionEffect;
-
-	private bool hasSoundPlayed;
+	public CharacterMover characterMover;
 
 	public CharacterMeta GetCharacterMeta()
 	{
@@ -42,5 +41,17 @@ public class CharacterManager : MonoBehaviour
     {
 		if (characterVisionEffect != null)
 			characterVisionEffect.enabled = false;
+	}
+
+	public void EnableMoverTriggerState()
+	{
+		if(characterMover != null)
+			characterMover.enableTriggerState();
+	}
+
+	public void EnableMoverIdleState()
+	{
+		if (characterMover != null)
+			characterMover.enableIdleState();
 	}
 }

@@ -9,7 +9,7 @@ public class ActionManager : MonoBehaviour
 	public CursorRenderer cursorRenderer;
 	public string actionAnimationState = "action";
 
-	private bool canAnimationPlay = true;
+	protected bool canAnimationPlay = true;
 
 	void Update()
 	{
@@ -59,7 +59,7 @@ public class ActionManager : MonoBehaviour
 		characterManager.PlaySound();
 	}
 
-	private void ExecuteLookInteraction(CharacterManager characterManager)
+	protected void ExecuteLookInteraction(CharacterManager characterManager)
 	{
 		if (!canAnimationPlay)
 			return;
@@ -75,6 +75,7 @@ public class ActionManager : MonoBehaviour
 		
 		characterManager.PlayAnimation(actionAnimationState);
 		characterManager.PlaySound();
+		characterManager.EnableMoverTriggerState();
 
 		TeleportTarget teleportTarget = characterManager.GetComponentInParent<TeleportTarget>();
 		if (!teleportTarget) {
