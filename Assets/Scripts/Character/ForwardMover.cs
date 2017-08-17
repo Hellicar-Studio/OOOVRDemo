@@ -6,7 +6,6 @@ public class ForwardMover : MonoBehaviour
 {
 	public Rigidbody rigid;
 	public float speed = 2f;
-	public float maxDistance = 90f;
 
 	void FixedUpdate()
 	{
