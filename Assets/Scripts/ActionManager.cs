@@ -40,7 +40,8 @@ public class ActionManager : MonoBehaviour
 		if (!characterManager)
 			return;
 
-		ExecuteLookInteraction(characterManager);
+		if (!characterManager.isSoundReactive ||(characterManager.isSoundReactive && voiceManager.pulse))
+			ExecuteLookInteraction(characterManager);
 
 		TeleportTarget teleportTarget = targetCollider.GetComponentInParent<TeleportTarget>();
 		if (!teleportTarget)
@@ -63,9 +64,6 @@ public class ActionManager : MonoBehaviour
 	protected void ExecuteLookInteraction(CharacterManager characterManager)
 	{
 		if (!canAnimationPlay)
-			return;
-
-		if (characterManager.isSoundReactive && !voiceManager.pulse)
 			return;
 
 		if (characterManager.characterAnimation.AnimatorIsPlaying(actionAnimationState))
