@@ -8,7 +8,8 @@ public class BananaGroupManager : MonoBehaviour {
 	public GameObject[] allObjects;
 	public float maxDistance;
 
-	void Start () {
+	void Start ()
+	{
 		allOrigins = new Vector3[allObjects.Length];
 		for(int i = 0; i < allObjects.Length; i++)
 		{
@@ -16,7 +17,8 @@ public class BananaGroupManager : MonoBehaviour {
 		}
 	}
 	
-	void Update () {
+	void Update ()
+	{
 		if(AllObjectsAreBeyondDistance())
 		{
 			for (int i = 0; i < allObjects.Length; i++)
@@ -41,3 +43,4 @@ public class BananaGroupManager : MonoBehaviour {
 		return true;
 	}
 }
+
