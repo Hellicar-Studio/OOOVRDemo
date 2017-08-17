@@ -66,6 +66,9 @@ public class ActionManager : MonoBehaviour
 		if (!canAnimationPlay)
 			return;
 
+		if (characterManager.isSoundReactive && !voiceManager.pulse)
+			return;
+
 		if (characterManager.characterAnimation.AnimatorIsPlaying(actionAnimationState))
 		{
 			characterManager.characterAnimation.ResetAnimationTrigger(actionAnimationState);
