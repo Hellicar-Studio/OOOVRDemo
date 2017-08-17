@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BananaGroupManager : MonoBehaviour {
+public class BananaGroupManager : MonoBehaviour
+{
 
 	private Vector3[] allOrigins;
 	public GameObject[] allObjects;
@@ -11,7 +12,7 @@ public class BananaGroupManager : MonoBehaviour {
 	void Start ()
 	{
 		allOrigins = new Vector3[allObjects.Length];
-		for(int i = 0; i < allObjects.Length; i++)
+		for (int i = 0; i < allObjects.Length; i++)
 		{
 			allOrigins[i] = allObjects[i].transform.position;
 		}
@@ -19,7 +20,7 @@ public class BananaGroupManager : MonoBehaviour {
 	
 	void Update ()
 	{
-		if(AllObjectsAreBeyondDistance())
+		if (AllObjectsAreBeyondDistance())
 		{
 			for (int i = 0; i < allObjects.Length; i++)
 			{

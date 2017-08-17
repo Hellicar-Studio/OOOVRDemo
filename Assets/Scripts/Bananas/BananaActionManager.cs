@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BananaActionManager : ActionManager {
-
+public class BananaActionManager : ActionManager
+{
 	public CharacterManager characterManager;
 
 	public void OnCollisionEnter(Collision collision)
 	{
-		if(collision.collider.tag == "Banana Guard")
+		if (collision.collider.tag == "Banana Guard")
 			ExecuteLookInteraction(characterManager);
 	}
 
