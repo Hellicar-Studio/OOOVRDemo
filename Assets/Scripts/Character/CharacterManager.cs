@@ -10,6 +10,8 @@ public class CharacterManager : MonoBehaviour
 	public CharacterMeta characterMeta;
 	public CharacterVisionEffect characterVisionEffect;
 
+	public bool isSoundReactive;
+
 	private bool hasSoundPlayed;
 
 	public CharacterMeta GetCharacterMeta()

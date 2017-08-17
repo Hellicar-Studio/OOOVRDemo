@@ -8,6 +8,37 @@ public class VoiceManager : MonoBehaviour
 	public int minimumLevel = 50;
 	public ParticleSystem particles;
 
+	private float[] micHistory;
+	public int historyLength = 120;
+	public bool pulse = false;
+
+	private void Start()
+	{
+		micHistory = new float[historyLength];
+	}
+
+	void Update()
+	{
+		float MicLoudness = microphoneManager.GetMicrophoneInputLevel();
+		Debug.Log(MicLoudness);
+		float avgMicLoudness = 0;
+		for (int i = historyLength - 1; i > 0; i--)
+		{
+			micHistory[i] = micHistory[i - 1];
+			avgMicLoudness += micHistory[i];
+		}
+		micHistory[0] = MicLoudness;
+		avgMicLoudness /= historyLength;
+		if (MicLoudness > avgMicLoudness * 2 + minimumLevel)
+		{
+			pulse = true;
+		}
+		else
+		{
+			pulse = false;
+		}
+	}
+
 	public void TriggerVoiceEffect()
 	{
 		if ((int)microphoneManager.GetMicrophoneInputLevel() <= minimumLevel)
