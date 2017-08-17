@@ -24,6 +24,7 @@ public class ActionManager : MonoBehaviour
 		{
 			if (hit.collider.GetComponentInParent<CharacterManager>())
 			{
+				Debug.Log("Calling Handle Actions!");
 				HandleActions(hit.collider);
 				return;
 			}
@@ -64,6 +65,9 @@ public class ActionManager : MonoBehaviour
 		if (!canAnimationPlay)
 			return;
 
+		if (characterManager.isSoundReactive && !voiceManager.pulse)
+			return;
+
 		if (characterManager.characterAnimation.AnimatorIsPlaying(actionAnimationState))
 		{
 			characterManager.characterAnimation.ResetAnimationTrigger(actionAnimationState);
@@ -82,7 +86,8 @@ public class ActionManager : MonoBehaviour
 			characterManager.PlayEffect();
 		}
 
-		canAnimationPlay = false;
+		if(!characterManager.isSoundReactive)
+			canAnimationPlay = false;
 	}
 
 	private void ExecuteVoiceInteraction()

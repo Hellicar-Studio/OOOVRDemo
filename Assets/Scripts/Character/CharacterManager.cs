@@ -11,6 +11,8 @@ public class CharacterManager : MonoBehaviour
 	public CharacterVisionEffect characterVisionEffect;
 	public CharacterMover characterMover;
 
+	public bool isSoundReactive;
+
 	public CharacterMeta GetCharacterMeta()
 	{
 		return characterMeta;
