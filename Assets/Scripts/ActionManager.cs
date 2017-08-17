@@ -24,6 +24,7 @@ public class ActionManager : MonoBehaviour
 		{
 			if (hit.collider.GetComponentInParent<CharacterManager>())
 			{
+				Debug.Log("Calling Handle Actions!");
 				HandleActions(hit.collider);
 				return;
 			}
@@ -39,7 +40,9 @@ public class ActionManager : MonoBehaviour
 		if (!characterManager)
 			return;
 
-		ExecuteLookInteraction(characterManager);
+		Debug.Log(characterManager.isReadyToReactToSound);
+		if (!characterManager.isSoundReactive ||(characterManager.isSoundReactive && voiceManager.pulse && characterManager.isReadyToReactToSound))
+			ExecuteLookInteraction(characterManager);
 
 		TeleportTarget teleportTarget = targetCollider.GetComponentInParent<TeleportTarget>();
 		if (!teleportTarget)
@@ -72,6 +75,8 @@ public class ActionManager : MonoBehaviour
 
 		if (characterManager.characterSound.characterAudioSource.isPlaying)
 			return;
+
+		StartCoroutine(characterManager.SoundCooldown());
 		
 		characterManager.PlayAnimation(actionAnimationState);
 		characterManager.PlaySound();
@@ -82,7 +87,8 @@ public class ActionManager : MonoBehaviour
 			characterManager.PlayEffect();
 		}
 
-		canAnimationPlay = false;
+		if(!characterManager.isSoundReactive)
+			canAnimationPlay = false;
 	}
 
 	private void ExecuteVoiceInteraction()

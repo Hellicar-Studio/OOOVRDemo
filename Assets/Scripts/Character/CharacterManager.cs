@@ -11,6 +11,17 @@ public class CharacterManager : MonoBehaviour
 	public CharacterVisionEffect characterVisionEffect;
 	public CharacterMover characterMover;
 
+	public bool isSoundReactive;
+
+	public float soundCooldownDuration = 0.5f;
+
+	[HideInInspector]
+	public bool isReadyToReactToSound;
+
+	public void Start()
+	{
+		isReadyToReactToSound = true;
+	}
 	public CharacterMeta GetCharacterMeta()
 	{
 		return characterMeta;
@@ -53,5 +64,18 @@ public class CharacterManager : MonoBehaviour
 	{
 		if (characterMover != null)
 			characterMover.enableIdleState();
+	}
+
+	public IEnumerator SoundCooldown()
+	{
+		isReadyToReactToSound = false;
+		Debug.Log("Not Ready!");
+		float timeCalled = Time.time;
+		while(Time.time - timeCalled < soundCooldownDuration)
+		{
+			yield return null;
+		}
+		Debug.Log("Ready!");
+		isReadyToReactToSound = true;
 	}
 }
