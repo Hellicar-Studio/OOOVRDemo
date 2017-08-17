@@ -20,7 +20,6 @@ public class VoiceManager : MonoBehaviour
 	void Update()
 	{
 		float MicLoudness = microphoneManager.GetMicrophoneInputLevel();
-		Debug.Log(MicLoudness);
 		float avgMicLoudness = 0;
 		for (int i = historyLength - 1; i > 0; i--)
 		{
