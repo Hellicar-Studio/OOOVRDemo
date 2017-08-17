@@ -40,7 +40,8 @@ public class ActionManager : MonoBehaviour
 		if (!characterManager)
 			return;
 
-		if (!characterManager.isSoundReactive ||(characterManager.isSoundReactive && voiceManager.pulse))
+		Debug.Log(characterManager.isReadyToReactToSound);
+		if (!characterManager.isSoundReactive ||(characterManager.isSoundReactive && voiceManager.pulse && characterManager.isReadyToReactToSound))
 			ExecuteLookInteraction(characterManager);
 
 		TeleportTarget teleportTarget = targetCollider.GetComponentInParent<TeleportTarget>();
@@ -66,9 +67,6 @@ public class ActionManager : MonoBehaviour
 		if (!canAnimationPlay)
 			return;
 
-		if (characterManager.isSoundReactive && !voiceManager.pulse)
-			return;
-
 		if (characterManager.characterAnimation.AnimatorIsPlaying(actionAnimationState))
 		{
 			characterManager.characterAnimation.ResetAnimationTrigger(actionAnimationState);
@@ -77,6 +75,8 @@ public class ActionManager : MonoBehaviour
 
 		if (characterManager.characterSound.characterAudioSource.isPlaying)
 			return;
+
+		StartCoroutine(characterManager.SoundCooldown());
 		
 		characterManager.PlayAnimation(actionAnimationState);
 		characterManager.PlaySound();
