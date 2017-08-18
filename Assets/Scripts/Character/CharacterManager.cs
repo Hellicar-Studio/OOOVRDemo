@@ -69,13 +69,11 @@ public class CharacterManager : MonoBehaviour
 	public IEnumerator SoundCooldown()
 	{
 		isReadyToReactToSound = false;
-		Debug.Log("Not Ready!");
 		float timeCalled = Time.time;
 		while(Time.time - timeCalled < soundCooldownDuration)
 		{
 			yield return null;
 		}
-		Debug.Log("Ready!");
 		isReadyToReactToSound = true;
 	}
 }

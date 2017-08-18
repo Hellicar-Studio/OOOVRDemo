@@ -24,7 +24,6 @@ public class ActionManager : MonoBehaviour
 		{
 			if (hit.collider.GetComponentInParent<CharacterManager>())
 			{
-				Debug.Log("Calling Handle Actions!");
 				HandleActions(hit.collider);
 				return;
 			}
@@ -40,7 +39,6 @@ public class ActionManager : MonoBehaviour
 		if (!characterManager)
 			return;
 
-		Debug.Log(characterManager.isReadyToReactToSound);
 		if (!characterManager.isSoundReactive ||(characterManager.isSoundReactive && voiceManager.pulse && characterManager.isReadyToReactToSound))
 			ExecuteLookInteraction(characterManager);
 
