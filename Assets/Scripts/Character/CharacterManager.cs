@@ -30,17 +30,20 @@ public class CharacterManager : MonoBehaviour
 
 	public void PlayAnimation(string animationStateName)
 	{
-		characterAnimation.TriggerAnimationState(animationStateName);
+		if (characterAnimation != null)
+			characterAnimation.TriggerAnimationState(animationStateName);
 	}
 
 	public void PlaySound()
 	{
-		characterSound.Play();
+		if(characterSound != null)
+			characterSound.Play();
 	}
 
 	public void PlayEffect()
 	{
-		characterEffect.SpawnParticles();
+		if (characterEffect != null)
+			characterEffect.SpawnParticles();
 	}
 
 	public void EnableVisionEffect()
