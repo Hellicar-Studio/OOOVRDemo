@@ -11,6 +11,8 @@ public class ActionManager : MonoBehaviour
 
 	protected bool canAnimationPlay = true;
 
+	private CharacterManager lastHitCharacterManager;
+
 	void Update()
 	{
 		DetectInteractiveObjects();
@@ -38,6 +40,13 @@ public class ActionManager : MonoBehaviour
 		CharacterManager characterManager = targetCollider.GetComponentInParent<CharacterManager>();
 		if (!characterManager)
 			return;
+
+		if(characterManager != lastHitCharacterManager)
+		{
+			canAnimationPlay = true;
+		}
+
+		lastHitCharacterManager = characterManager;
 
 		if (!characterManager.isSoundReactive ||(characterManager.isSoundReactive && voiceManager.pulse && characterManager.isReadyToReactToSound))
 			ExecuteLookInteraction(characterManager);
