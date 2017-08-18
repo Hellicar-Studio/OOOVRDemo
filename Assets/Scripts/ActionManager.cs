@@ -65,11 +65,12 @@ public class ActionManager : MonoBehaviour
 		if (!canAnimationPlay)
 			return;
 
-		if (characterManager.characterAnimation.AnimatorIsPlaying(actionAnimationState))
-		{
-			characterManager.characterAnimation.ResetAnimationTrigger(actionAnimationState);
-			return;
-		}
+		if(characterManager.characterAnimation != null)
+			if (characterManager.characterAnimation.AnimatorIsPlaying(actionAnimationState))
+			{
+				characterManager.characterAnimation.ResetAnimationTrigger(actionAnimationState);
+				return;
+			}
 
 		if (characterManager.characterSound.characterAudioSource.isPlaying)
 			return;
