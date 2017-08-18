@@ -9,7 +9,7 @@
 	{
 		Pass
 		{
-
+			Name "Vignette"
 			CGPROGRAM
 			#pragma vertex vert_img
 			#pragma fragment frag
@@ -19,6 +19,7 @@
 			uniform sampler2D _MainTex;
 			uniform float _VignettePower;
 			uniform float4 _Tint;
+			uniform float _PulseValue;
 
 			struct v2f
 			{
@@ -32,7 +33,6 @@
 				dist.x = 1 - dot(dist, dist) * _VignettePower;
 				renderTex = lerp(_Tint, renderTex, dist.x);
 				return renderTex;
-
 			}
 			ENDCG
 		}
