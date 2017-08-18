@@ -5,11 +5,7 @@ using UnityEngine;
 public class CharacterVisionEffectApplier : MonoBehaviour {
 
 	public CharacterVisionEffect characterVisionEffect = null;
-
-	void Awake()
-	{
-
-	}
+	public VoiceManager voiceManager;
 
 	public void setCharacterVisionEffect(CharacterVisionEffect _effect)
 	{
@@ -28,6 +24,7 @@ public class CharacterVisionEffectApplier : MonoBehaviour {
 		{
 			Graphics.Blit(source, destination);
 		}
+
 	}
 }
 

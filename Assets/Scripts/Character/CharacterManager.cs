@@ -22,6 +22,7 @@ public class CharacterManager : MonoBehaviour
 	{
 		isReadyToReactToSound = true;
 	}
+
 	public CharacterMeta GetCharacterMeta()
 	{
 		return characterMeta;
