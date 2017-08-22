@@ -11,6 +11,8 @@ public class ActionManager : MonoBehaviour
 
 	protected bool canAnimationPlay = true;
 
+	private CharacterManager lastHitCharacterManager;
+
 	void Update()
 	{
 		DetectInteractiveObjects();
@@ -39,6 +41,13 @@ public class ActionManager : MonoBehaviour
 		if (!characterManager)
 			return;
 
+		if(characterManager != lastHitCharacterManager)
+		{
+			canAnimationPlay = true;
+		}
+
+		lastHitCharacterManager = characterManager;
+
 		if (!characterManager.isSoundReactive ||(characterManager.isSoundReactive && voiceManager.pulse && characterManager.isReadyToReactToSound))
 			ExecuteLookInteraction(characterManager);
 
@@ -65,11 +74,12 @@ public class ActionManager : MonoBehaviour
 		if (!canAnimationPlay)
 			return;
 
-		if (characterManager.characterAnimation.AnimatorIsPlaying(actionAnimationState))
-		{
-			characterManager.characterAnimation.ResetAnimationTrigger(actionAnimationState);
-			return;
-		}
+		if(characterManager.characterAnimation != null)
+			if (characterManager.characterAnimation.AnimatorIsPlaying(actionAnimationState))
+			{
+				characterManager.characterAnimation.ResetAnimationTrigger(actionAnimationState);
+				return;
+			}
 
 		if (characterManager.characterSound.characterAudioSource.isPlaying)
 			return;
