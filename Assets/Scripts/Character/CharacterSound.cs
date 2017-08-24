@@ -26,7 +26,6 @@ public class CharacterSound : MonoBehaviour
 		{
 			Debug.Log("Characters and Sounds do not match!");
 		}
-
 	}
 	private AudioClip GetRandomCharacterSound()
 	{
