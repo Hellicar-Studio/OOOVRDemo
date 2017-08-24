@@ -5,42 +5,37 @@ using UnityEngine;
 public class CharacterSound : MonoBehaviour
 {
 	public AudioSource characterAudioSource;
-	[HideInInspector]
-	public AudioClip[] defaultSounds;
-	public AudioClip[] sounds;
+	public SoundLibrary defaultSoundLibrary;
+	public SoundLibrary[] soundLibraries;
 	public CharacterManager[] characters;
-	Dictionary<CharacterManager, AudioClip> characterSounds;
+	Dictionary<CharacterManager, SoundLibrary> characterSounds;
 
 	void Awake()
 	{
-		characterSounds = new Dictionary<CharacterManager, AudioClip>();
+		characterSounds = new Dictionary<CharacterManager, SoundLibrary>();
 
-		if(sounds.Length == characters.Length)
+		if(soundLibraries.Length == characters.Length)
 		{
-			for(int i = 0; i < sounds.Length; i++)
+			for(int i = 0; i < soundLibraries.Length; i++)
 			{
-				characterSounds.Add(characters[i], sounds[i]);
+				characterSounds.Add(characters[i], soundLibraries[i]);
 			}
 		}
 		else
 		{
-			Debug.Log("Characters and Sounds do not match!");
+			Debug.Log("Characters and soundLibraries do not match!");
 		}
-	}
-	private AudioClip GetRandomCharacterSound()
-	{
-		return defaultSounds[Random.Range(0, defaultSounds.Length)];
 	}
 
 	private AudioClip GetCharacterSpecificSound(CharacterManager currentManager)
 	{
 		try
 		{
-			return characterSounds[currentManager];
+			return characterSounds[currentManager].getRandomClip();
 		}
 		catch
 		{
-			return GetRandomCharacterSound();
+			return defaultSoundLibrary.getRandomClip();
 		}
 	}
 
@@ -49,7 +44,7 @@ public class CharacterSound : MonoBehaviour
 		if (characterAudioSource.isPlaying)
 			return;
 
-		characterAudioSource.clip = GetRandomCharacterSound();
+		characterAudioSource.clip = defaultSoundLibrary.getRandomClip();
 		characterAudioSource.Play();
 	}
 
