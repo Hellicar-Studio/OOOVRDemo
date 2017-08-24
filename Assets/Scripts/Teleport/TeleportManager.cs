@@ -10,6 +10,7 @@ public class TeleportManager : MonoBehaviour
 	public TeleportCharacterRenderer teleportCharacterRenderer;
 	public TeleportCharacterVisionEffect teleportCharacterVisionEffect;
 	public Color startCharacterColor = Color.white;
+	public CharacterManager currentlyMountedCharacter;
 	public float distancePadding = 0.5f;
 
 	public void DetectTeleportTarget(CharacterManager characterManager, Transform teleportTransform)
@@ -30,6 +31,7 @@ public class TeleportManager : MonoBehaviour
 			if (!teleportAnimation.AnimatorIsPlaying("CloseEye"))
 			{
 				AnimationEnd(characterManager, teleportTransform);
+				currentlyMountedCharacter = characterManager;
 				yield break;
 			}
 		}
