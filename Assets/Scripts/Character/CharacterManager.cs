@@ -43,7 +43,16 @@ public class CharacterManager : MonoBehaviour
 	public void PlaySound(CharacterManager currentCharacter)
 	{
 		if (characterSound != null)
-			characterSound.Play(currentCharacter);
+		{
+			if (currentCharacter != null)
+			{
+				characterSound.Play(currentCharacter);
+			}
+			else
+			{
+				characterSound.Play();
+			}
+		}
 	}
 
 	public void PlayEffect()

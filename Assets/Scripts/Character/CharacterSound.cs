@@ -5,6 +5,7 @@ using UnityEngine;
 public class CharacterSound : MonoBehaviour
 {
 	public AudioSource characterAudioSource;
+	[HideInInspector]
 	public AudioClip[] defaultSounds;
 	public AudioClip[] sounds;
 	public CharacterManager[] characters;
@@ -16,7 +17,7 @@ public class CharacterSound : MonoBehaviour
 
 		if(sounds.Length == characters.Length)
 		{
-			for(int i = 0; i > sounds.Length; i++)
+			for(int i = 0; i < sounds.Length; i++)
 			{
 				characterSounds.Add(characters[i], sounds[i]);
 			}
@@ -25,6 +26,7 @@ public class CharacterSound : MonoBehaviour
 		{
 			Debug.Log("Characters and Sounds do not match!");
 		}
+
 	}
 	private AudioClip GetRandomCharacterSound()
 	{
