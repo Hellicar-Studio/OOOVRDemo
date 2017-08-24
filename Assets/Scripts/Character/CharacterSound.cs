@@ -35,11 +35,14 @@ public class CharacterSound : MonoBehaviour
 
 	private AudioClip GetCharacterSpecificSound(CharacterManager currentManager)
 	{
-		if(characterSounds[currentManager] != null)
+		try
 		{
 			return characterSounds[currentManager];
 		}
-		return GetRandomCharacterSound();
+		catch
+		{
+			return GetRandomCharacterSound();
+		}
 	}
 
 	public void Play()
