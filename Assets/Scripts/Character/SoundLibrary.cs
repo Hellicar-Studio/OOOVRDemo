@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SoundLibrary : MonoBehaviour
 {
+	public CharacterManager characterKey;
 	public AudioClip[] soundClips;
 
 	public AudioClip getRandomClip()
