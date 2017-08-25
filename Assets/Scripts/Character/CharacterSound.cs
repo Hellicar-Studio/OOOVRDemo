@@ -5,25 +5,25 @@ using UnityEngine;
 public class CharacterSound : MonoBehaviour
 {
 	public AudioSource characterAudioSource;
-	public SoundLibrary defaultSoundLibrary;
-	public SoundLibrary[] soundLibraries;
-	public CharacterManager[] characters;
-	Dictionary<CharacterManager, SoundLibrary> characterSounds;
+	private SoundLibrary defaultSoundLibrary;
+	private Dictionary<CharacterManager, SoundLibrary> characterSounds;
 
 	void Awake()
 	{
 		characterSounds = new Dictionary<CharacterManager, SoundLibrary>();
 
-		if(soundLibraries.Length == characters.Length)
+		SoundLibrary[] soundLibraries = GetComponents<SoundLibrary>();
+
+		for(int i = 0; i < soundLibraries.Length; i++)
 		{
-			for(int i = 0; i < soundLibraries.Length; i++)
+			if(soundLibraries[i].characterKey == null)
 			{
-				characterSounds.Add(characters[i], soundLibraries[i]);
+				defaultSoundLibrary = soundLibraries[i];
 			}
-		}
-		else
-		{
-			Debug.Log("Characters and soundLibraries do not match!");
+			else
+			{
+				characterSounds.Add(soundLibraries[i].characterKey, soundLibraries[i]);
+			}
 		}
 	}
 
