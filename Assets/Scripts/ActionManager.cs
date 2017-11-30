@@ -57,7 +57,7 @@ public class ActionManager : MonoBehaviour
 
 		cursorRenderer.FadeFromTransparent();
 
-		if (Input.GetMouseButtonDown(0) || OVRInput.GetDown(OVRInput.Button.One))
+		if (cursorRenderer.isAlphaFull)
 		{
 			ExecuteTeleport(characterManager, teleportTarget.teleportTransform);
 		}
