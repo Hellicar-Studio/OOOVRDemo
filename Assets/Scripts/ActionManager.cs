@@ -5,6 +5,7 @@ using UnityEngine;
 public class ActionManager : MonoBehaviour
 {
 	public TeleportManager teleportManager;
+	public TeleportTrigger teleportTrigger;
 	public VoiceManager voiceManager;
 	public CursorRenderer cursorRenderer;
 	public string actionAnimationState = "action";
@@ -55,11 +56,15 @@ public class ActionManager : MonoBehaviour
 		if (!teleportTarget)
 			return;
 
+		teleportTrigger.setIncreasing(true);
+
 		cursorRenderer.FadeFromTransparent();
 
-		if (cursorRenderer.isAlphaFull)
+		if (teleportTrigger.triggered)
 		{
 			ExecuteTeleport(characterManager, teleportTarget.teleportTransform);
+			teleportTrigger.startCooldown();
+			teleportTrigger.resetPercentage();
 		}
 	}
 
