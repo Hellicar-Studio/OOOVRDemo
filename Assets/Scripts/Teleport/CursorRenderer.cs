@@ -9,6 +9,8 @@ public class CursorRenderer : MonoBehaviour
 	public Color colorOpaque;
 	public Color colorTransparent;
 	public float duration = 2f;
+	[HideInInspector]
+	public bool isAlphaFull;
 
 	private bool isAlphaFaded;
 
@@ -37,6 +39,7 @@ public class CursorRenderer : MonoBehaviour
 
 	private IEnumerator DecreaseAlpha()
 	{
+		isAlphaFull = false;
 		for (float t = 0f; t < duration; t += Time.deltaTime)
 		{
 			playerCursor.color = Color.Lerp(colorOpaque, colorTransparent, t / duration);
@@ -51,5 +54,6 @@ public class CursorRenderer : MonoBehaviour
 			playerCursor.color = Color.Lerp(colorTransparent, colorOpaque, t / duration);
 			yield return null;
 		}
+		isAlphaFull = true;
 	} 
 }
