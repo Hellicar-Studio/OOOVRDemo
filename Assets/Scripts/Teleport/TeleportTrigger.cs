@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TeleportTrigger : MonoBehaviour {
 
@@ -8,6 +9,8 @@ public class TeleportTrigger : MonoBehaviour {
 	public float percentage = 0.0f;
 
 	public float cooldownDuration = 2f;
+
+	public Image indicator;
 
 
 	[Range(0.0f, 1.0f)]
@@ -35,6 +38,7 @@ public class TeleportTrigger : MonoBehaviour {
 		else
 			decreasePercentage();
 
+		indicator.fillAmount = percentage / 100.0f;
 		increasing = false;
 	}
 
