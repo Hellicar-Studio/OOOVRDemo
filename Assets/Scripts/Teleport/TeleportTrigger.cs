@@ -13,9 +13,9 @@ public class TeleportTrigger : MonoBehaviour {
 	public Image indicator;
 
 
-	[Range(0.0f, 1.0f)]
+	[Range(0.0f, 5.0f)]
 	public float speedUp;
-	[Range(0.0f, 1.0f)]
+	[Range(0.0f, 5.0f)]
 	public float speedDown;
 
 	[HideInInspector]
